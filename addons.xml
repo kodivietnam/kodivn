@@ -1,4 +1,546 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.video.vietmediaF" name="VietmediaF" version="2.0.2.beta.6" provider-name="ducnn">
+    <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.six"/>
+    <import addon="script.module.kodi-six"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.pysocks"/>
+    <import addon="script.module.inputstreamhelper" optional="true"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+	<extension point="xbmc.addon.metadata">
+        <summary lang="en">VietmediaF for Kodi 19</summary>
+        <description lang="en">
+            VietmediaF
+        </description>
+        <disclaimer lang="en">Nội dung lấy trên mạng và do người dùng tự upload lên. VietmediaF không chịu trách nhiệm về nội dung hiển thị bên trong addon.
+        </disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="plugin.program.autocompletion" name="AutoCompletion for virtual keyboard" version="2.0.1" provider-name="Philipp Temminghoff (phil65),sualfred">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+        <import addon="script.module.autocompletion" version="2.0.0"/>
+    </requires>
+    <extension point="xbmc.python.script" library="default.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.python.pluginsource" library="plugin.py" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">AutoCompletion for the virtual keyboard (needs skin support)</summary>
+        <description lang="en_GB">AutoCompletion for the virtual keyboard (needs skin support)</description>
+        <platform>all</platform>
+        <license>GPL-2.0-or-later</license>
+        <source>https://github.com/phil65/plugin.program.autocompletion</source>
+        <assets>
+            <icon>resources/icon.png</icon>
+            <screenshot>resources/screenshot-01.jpg</screenshot>
+            <screenshot>resources/screenshot-02.jpg</screenshot>
+            <screenshot>resources/screenshot-03.jpg</screenshot>
+        </assets>
+    </extension>
+</addon>
+<addon id="plugin.program.hieuitmc" name="[COLOR red][B]HieuITMC[/B][/COLOR] [COLOR yellow][B]Matrix[/B][/COLOR]" version="3.1.3" provider-name="HieuIT">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+        <import addon="script.module.requests" />
+    </requires>
+    
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+    </extension>
+    
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">HieuITMC Matrix</summary>
+    <description lang="en">
+	Quick setup all Addon Skin Source
+	Include Addon: VietmediaF, Google Drive, Bimozie, Netflix...
+	</description>
+    <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>	
+
+<addon id="plugin.program.sgmatrix" name="SG Wizard 19" version="0.0.1" provider-name="SG">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+        <import addon="script.module.requests" />
+        <import addon="script.module.six" />
+        <import addon="script.kodi.android.update" optional="true" version="1.1.7" />
+    </requires>
+    
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+    </extension>
+    
+    <extension point="xbmc.service" library="startup.py" start="startup" />
+    
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">[COLOR limegreen]SG[/COLOR]Wizard</summary>
+        <description lang="en">[COLOR limegreen]SG[/COLOR]Wizard offers many maintenance features, selective add-on data saving, and automated build installs.</description>
+        <platform>all</platform>
+        <reuselanguageinvoker>false</reuselanguageinvoker>
+        <source>https://www.github.com/a4k-openproject/plugin.program.openwizard/</source>
+        <news>
+2.0.0
+ - Kodi 19 ready
+ - Initial Commit
+        </news>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>	
+	
+<addon id="plugin.video.last_played" name="Last Played" version="6.0.3" provider-name="Luis Rodrigues">
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="default.py" />
+	<extension point="xbmc.addon.metadata">
+	<summary lang="en_GB">Last Played</summary>
+	<summary lang="en_US">Last Played</summary>
+	<summary lang="en_AU">Last Played</summary>
+	<summary lang="en_NZ">Last Played</summary>
+		<summary lang="pt_PT">Ultimos Vistos</summary>
+		<summary lang="pt_BR">Ultimos Vistos</summary>
+		<summary lang="sk_sk">Last Played (naposledy videné)</summary>
+		<description lang="en_GB">List of the last movies, episodes and music played, including streaming sources from any addon</description>
+		<description lang="en_US">List of the last movies, episodes and music played, including streaming sources from any addon</description>
+		<description lang="en_AU">List of the last movies, episodes and music played, including streaming sources from any addon</description>
+		<description lang="en_NZ">List of the last movies, episodes and music played, including streaming sources from any addon</description>
+		<description lang="pt_PT">Ultimos filmes, episodios e musicas tocadas, incluindo fontes de streaming de qualquer addon</description>
+		<description lang="pt_BR">Ultimos filmes, episodios e musicas tocadas, incluindo fontes de streaming de qualquer addon</description>
+		<description lang="sk_SK">Naposledy prehrávané filmy, seriály a hudba, vrátane streamov z ľubovoľného doplnku</description>
+		<disclaimer lang="en_GB"></disclaimer>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
+		<source>https://github.com/5-star/plugin.video.last_played</source>
+		<assets>
+			<icon>icon.png</icon>
+		</assets>
+	</extension>
+</addon>
+	
+<addon id="plugin.video.youtube" name="YouTube" version="6.8.18.alpha.6.1" provider-name="anxdpanic, bromix">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.six" version="1.11.0"/>
+    <import addon="script.module.requests" version="2.12.4"/>
+    <import addon="script.module.inputstreamhelper" version="0.2.2" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="resources/lib/default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.service" library="resources/lib/startup.py"/>
+  <extension point="xbmc.python.module" library="resources/lib/"/>
+  <extension point="xbmc.addon.metadata">
+    <news>
+[fix] Fix to_str |contrib: RNavega|
+[fix] Fix playback buffering |contrib: RNavega|
+[lang] translation updates from Weblate
+        </news>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+    </assets>
+    <platform>all</platform>
+    <license>GPL-2.0-only</license>
+    <forum>https://ytaddon.panicked.xyz/forum</forum>
+    <website>https://www.youtube.com</website>
+    <source>https://github.com/anxdpanic/plugin.video.youtube</source>
+    <reuselanguageinvoker>true</reuselanguageinvoker>
+    <summary lang="bg_BG">Добавка за YouTube</summary>
+    <summary lang="cs_CZ">Plugin pro YouTube</summary>
+    <summary lang="de_DE">Plugin für YouTube</summary>
+    <summary lang="el_GR">Πρόσθετο YouTube</summary>
+    <summary lang="en_GB">Plugin for YouTube</summary>
+    <summary lang="es_ES">Plugin para YouTube</summary>
+    <summary lang="es_MX">Plugin para YouTube</summary>
+    <summary lang="fr_FR">Plugin pour YouTube</summary>
+    <summary lang="he_IL">תוסף עבור YouTube</summary>
+    <summary lang="hu_HU">YouTube kiegészítő</summary>
+    <summary lang="it_IT">Plugin per YouTube</summary>
+    <summary lang="ko_KR">유튜브 플러그인</summary>
+    <summary lang="nb_NO">Tillegg for YouTube</summary>
+    <summary lang="pl_PL">Wtyczka YouTube</summary>
+    <summary lang="ru_RU">Видеодополнение YouTube</summary>
+    <summary lang="tr_TR">YouTube için eklenti</summary>
+    <summary lang="vi_VN">Plugin dành cho YouTube</summary>
+    <summary lang="zh_CN">YouTube附加元件</summary>
+    <summary lang="zh_TW">YouTube附加元件</summary>
+    <description lang="bg_BG">YouTube е един от най-големите уеб сайтове за споделяне на видео в целия свят.</description>
+    <description lang="cs_CZ">YouTube je jedna z největších webových stránek světa sdílející video.</description>
+    <description lang="de_DE">YouTube ist eines der größten Video-Sharing-Websites der Welt.</description>
+    <description lang="el_GR">Το YouTube είναι μία από τις μεγαλύτερες ιστοσελίδες διαμοιρασμού βίντεο στον κόσμο.</description>
+    <description lang="en_GB">YouTube is one of the biggest video-sharing websites of the world.</description>
+    <description lang="es_ES">YouTube es uno de los sitios web más grande del mundo para compartir vídeos.</description>
+    <description lang="es_MX">YouTube es uno de los más grandes sitios web de intercambio de videos del mundo.</description>
+    <description lang="fr_FR">YouTube est l'un des plus grands sites de partage vidéos du monde.</description>
+    <description lang="he_IL">YouTube הוא אחד מאתרי שיתוף הווידאו הגדולים בעולם.</description>
+    <description lang="hu_HU">A YouTube világ egyik legnagyobb videómegosztó weboldala.</description>
+    <description lang="it_IT">YouTube è uno dei più grandi siti web di condivisione video del mondo.</description>
+    <description lang="ko_KR">유튜브는 세상에서 가장 큰 동영상 공유 사이트 중의 하나입니다.</description>
+    <description lang="nb_NO">YouTube er en av verdens største nettsider for videodeling.</description>
+    <description lang="pl_PL">YouTube jest jednym z największych na świecie serwisów udostępniania wideo.</description>
+    <description lang="ru_RU">YouTube - популярнейший видеохостинговый сайт, предоставляющий пользователям услуги хранения, доставки и показа видео.</description>
+    <description lang="tr_TR">YouTube, dünya üzerindeki en büyük video paylaşma platformlarından birisidir.</description>
+    <description lang="vi_VN">YouTube là một trong những trang web chia sẻ video lớn nhất trên thế giới.</description>
+    <description lang="zh_CN">「Youtube」是全世界最大的影片分享網站</description>
+    <description lang="zh_TW">「Youtube」是全世界最大的影片分享網站</description>
+    <disclaimer lang="cs_CZ">Tento plugin není schválen společností Google</disclaimer>
+    <disclaimer lang="de_DE">Dieses Plugin ist nicht von Google befürwortet</disclaimer>
+    <disclaimer lang="el_GR">Η παρούσα μικροεφαρμογή δεν έχει υϊοθετηθεί από την Google</disclaimer>
+    <disclaimer lang="en_GB">This plugin is not endorsed by Google</disclaimer>
+    <disclaimer lang="es_ES">Este add-on no está respaldado por Google</disclaimer>
+    <disclaimer lang="es_MX">Este add-on no está respaldado por Google</disclaimer>
+    <disclaimer lang="it_IT">Questo plugin non è promosso da Google</disclaimer>
+    <disclaimer lang="ko_KR">이 플러그인은 Google의 허가를 받지 않았습니다</disclaimer>
+    <disclaimer lang="pl_PL">Ta wtyczka nie jest zatwierdzona przez Google</disclaimer>
+    <disclaimer lang="ru_RU">Плагин не поддерживается Google</disclaimer>
+    <disclaimer lang="tr_TR">Bu eklenti Google tarafından üretilmemiştir</disclaimer>
+    <disclaimer lang="vi_VN">Plugin này không được xác nhận bởi Google</disclaimer>
+    <disclaimer lang="zh_TW">此附加元件未由Google支持</disclaimer>
+  </extension>
+</addon>
+	
+	
+<addon id="repository.5star" name="Repository for 5Star Kodi addons" version="6.0.3" provider-name="Luis Rodrigues">
+    <extension point="xbmc.addon.repository" name="Repository for 5Star Kodi addons">
+        <info compressed="false">https://raw.githubusercontent.com/5-star/repository.5star/master/addons/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/5-star/repository.5star/master/addons/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/5-star/repository.5star/raw/master/zips/</datadir>
+    </extension> 
+    <extension point="xbmc.addon.metadata">
+        <summary>Repository for 5Star Kodi addons</summary>
+        <description>Repository for 5Star Kodi addons</description>
+        <platform>all</platform>
+    </extension>
+</addon>	
+	
+<addon id="repository.camaradas.repo" name="[COLOR orangered]camaradas.repo[/COLOR]" version="2.0" provider-name="Team Camaradas">
+    <extension point="xbmc.addon.repository" name="camaradas.repo">
+        <info>https://raw.githubusercontent.com/camaradas/camaradas.repo/master/Repositorio/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/camaradas/camaradas.repo/master/Repositorio/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/camaradas/camaradas.repo/master/Repositorio/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Repositorio camaradas.repo</summary>
+        <description></description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+    </extension>
+</addon>	
+<addon id="repository.daedalusbln" name="DaedalusBLN Repository" version="1.0.2" provider-name="DaedalusBLN">
+  <extension point="xbmc.addon.repository" name="DaedalusBLN Repository">
+    <dir minversion="18.0" maxversion="18.9.0">
+      <info compressed="false">https://raw.githubusercontent.com/DaedalusBLN/DaedalusBLN.github.io/master/leia/zips/addons.xml</info>
+      <checksum>https://raw.githubusercontent.com/DaedalusBLN/DaedalusBLN.github.io/master/leia/zips/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.githubusercontent.com/DaedalusBLN/DaedalusBLN.github.io/master/leia/zips/</datadir>
+    </dir>
+    <dir minversion="18.9.0">
+      <info compressed="false">https://raw.githubusercontent.com/DaedalusBLN/DaedalusBLN.github.io/master/matrix/zips/addons.xml</info>
+      <checksum>https://raw.githubusercontent.com/DaedalusBLN/DaedalusBLN.github.io/master/matrix/zips/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.githubusercontent.com/DaedalusBLN/DaedalusBLN.github.io/master/matrix/zips/</datadir>
+    </dir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>DaedalusBLN Repository</summary>
+    <description>What the fork?</description>
+    <disclaimer></disclaimer>
+    <platform>all</platform>
+      <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+      </assets>
+  </extension>
+</addon>	
+<addon id="repository.EzzerMacsWizard" name="EzzerMacs Wizard Repository" version="1.1.6" provider-name="EzzerMac">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="EzzerMacs Wizard Repository">
+            <info compressed="false">http://www.ezzer-mac.com/_repo/addons.xml</info>
+            <checksum>http://www.ezzer-mac.com/_repo/addons.xml.md5</checksum>
+            <datadir zip="true">http://www.ezzer-mac.com/_repo/</datadir>
+            <hashes>false</hashes>
+            
+            <dir>
+			<info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
+		</dir>
+		
+		<dir>
+            <info compressed="false">https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/</datadir>
+        </dir>
+		
+		<dir>
+            <info compressed="false">https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/</datadir>
+        </dir>
+        
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/</datadir>
+            <hashes>false</hashes>
+        </dir>
+	
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
+		</dir>
+		
+		
+		<dir>
+            <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
+        </dir>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>Install all the latest Builds</summary>
+            <description>Welcome to the New and Improved EZZERMACS WIZARD for all your Community Builds, All the Help and Assistance can be found Here</description>
+            <platform>all</platform>
+		<assets>
+		<icon>icon.png</icon>
+		<fanart>fanart.jpg</fanart>
+		</assets>
+    </extension>
+</addon>	
+	
+<addon id="repository.hieuitmediacenter"
+		name="[COLOR red][B]HieuIT[/B][/COLOR] [COLOR yellow][B]Repository[/B][/COLOR]"
+		version="1.0.8"
+		provider-name="HieuIT">
+  <extension point="xbmc.addon.repository"
+		name="HieuITMC Add-on Repository">
+		<info compressed="true">https://raw.githubusercontent.com/tremocoivo/repo.kongnghe.net/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/tremocoivo/repo.kongnghe.net/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/tremocoivo/repo.kongnghe.net/raw/master/zips/</datadir>
+		<dir>
+			<info>https://raw.githubusercontent.com/cguZZman/repository.plugins/master/addons-info.xml</info>
+			<checksum>https://raw.githubusercontent.com/cguZZman/repository.plugins/master/addons-info.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/cguZZman/repository.plugins/master/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://github.com/taifxx/xxtrep/raw/master/addons.xml</info>
+			<checksum>https://github.com/taifxx/xxtrep/raw/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://github.com/taifxx/xxtrep/raw/master/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">http://thong.viettv24.com/kodi4vn/addons.xml</info>
+			<checksum>http://thong.viettv24.com/kodi4vn/addons.xml.md5</checksum>
+			<datadir zip="true">http://thong.viettv24.com/kodi4vn/</datadir>
+		</dir>
+		<dir>
+			<info compressed="true">https://raw.githubusercontent.com/thaitni/xbmc.repo.xshare/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/thaitni/xbmc.repo.xshare/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/thaitni/xbmc.repo.xshare/master</datadir>
+		</dir>
+		<dir>
+                <info compressed="false">https://raw.github.com/billythekids/kodi.repository/master/addons.xml</info>
+                <checksum>https://raw.github.com/billythekids/kodi.repository/master/addons.xml.md5</checksum>
+                <datadir zip="true">https://github.com/billythekids/kodi.repository/raw/master/zips/</datadir>
+            </dir>
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/zips/</datadir>
+        </dir>
+		<dir>
+			<info>https://github.com/CastagnaIT/repository.castagnait/raw/master/addons.xml</info>
+			<checksum>https://github.com/CastagnaIT/repository.castagnait/raw/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://github.com/CastagnaIT/repository.castagnait/raw/master/zip</datadir>
+		</dir>
+		<dir>
+			<info>https://github.com/CastagnaIT/repository.castagnait/raw/matrix/addons.xml</info>
+			<checksum>https://github.com/CastagnaIT/repository.castagnait/raw/matrix/addons.xml.md5</checksum>
+			<datadir zip="true">https://github.com/CastagnaIT/repository.castagnait/raw/matrix/zip</datadir>
+		</dir>
+		<dir>
+			<info>https://raw.githubusercontent.com/cguZZman/repository.plugins/master/addons-info-matrix.xml</info>
+			<checksum>https://raw.githubusercontent.com/cguZZman/repository.plugins/master/addons-info-matrix.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/cguZZman/repository.plugins/master/matrix/</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">HieuIT Media Center</summary>
+		<description lang="en">Install Kodi with full Addon and more</description>
+		<disclaimer lang="en"></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+<addon id="repository.kodinerds" name="Kodinerds Addon Repo" version="7.0.1.1" provider-name="Kodinerds">
+    <requires>
+        <import addon="xbmc.addon" version="12.0.0"/>
+    </requires>
+    <extension point="xbmc.addon.repository" name="Kodinerds Addon Repo">
+        <dir>
+            <info compressed="true">https://repo.kodinerds.net/addons/addons.xml</info>
+            <checksum>https://repo.kodinerds.net/addons/addons.xml.md5</checksum>
+            <datadir zip="true">https://repo.kodinerds.net/addons</datadir>
+            <hashes>false</hashes>
+        </dir>
+        <dir minversion="18.9.9">
+            <info compressed="true">https://repo.kodinerds.net/addons/matrix/addons.xml</info>
+            <checksum>https://repo.kodinerds.net/addons/matrix/addons.xml.md5</checksum>
+            <datadir zip="true">https://repo.kodinerds.net/addons/matrix/zip/</datadir>
+            <hashes>false</hashes>
+        </dir>
+        <dir minversion="18.0.0" maxversion="18.9.0">
+            <info compressed="true">https://repo.kodinerds.net/addons/leia/addons.xml</info>
+            <checksum>https://repo.kodinerds.net/addons/leia/addons.xml.md5</checksum>
+            <datadir zip="true">https://repo.kodinerds.net/addons/leia/zip/</datadir>
+            <hashes>false</hashes>
+        </dir>
+        <dir minversion="17.0.0" maxversion="18.9.0">
+            <info compressed="true">https://repo.kodinerds.net/addons/krypton/addons.xml</info>
+            <checksum>https://repo.kodinerds.net/addons/krypton/addons.xml.md5</checksum>
+            <datadir zip="true">https://repo.kodinerds.net/addons/krypton/zip/</datadir>
+            <hashes>false</hashes>
+        </dir>
+        <dir minversion="16.0.0" maxversion="18.9.0">
+            <info compressed="true">https://repo.kodinerds.net/addons/jarvis/addons.xml</info>
+            <checksum>https://repo.kodinerds.net/addons/jarvis/addons.xml.md5</checksum>
+            <datadir zip="true">https://repo.kodinerds.net/addons/jarvis/zip/</datadir>
+            <hashes>false</hashes>
+        </dir>
+        <dir minversion="15.0.0" maxversion="18.9.0">
+            <info compressed="true">https://repo.kodinerds.net/addons/isengard/addons.xml</info>
+            <checksum>https://repo.kodinerds.net/addons/isengard/addons.xml.md5</checksum>
+            <datadir zip="true">https://repo.kodinerds.net/addons/isengard/zip/</datadir>
+            <hashes>false</hashes>
+        </dir>
+        <dir minversion="14.0.0" maxversion="18.9.0">
+            <info compressed="true">https://repo.kodinerds.net/addons/helix/addons.xml</info>
+            <checksum>https://repo.kodinerds.net/addons/helix/addons.xml.md5</checksum>
+            <datadir zip="true">https://repo.kodinerds.net/addons/helix/zip/</datadir>
+            <hashes>false</hashes>
+        </dir>
+        <dir minversion="13.0.0" maxversion="18.9.0">
+            <info compressed="true">https://repo.kodinerds.net/addons/gotham/addons.xml</info>
+            <checksum>https://repo.kodinerds.net/addons/gotham/addons.xml.md5</checksum>
+            <datadir zip="true">https://repo.kodinerds.net/addons/gotham/zip/</datadir>
+            <hashes>false</hashes>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Addon repository of the Kodinerds Community</summary>
+        <description lang="en">The 'Nerdsrepo' is the Repository of the german Kodi Community 'Kodinerds' (www.kodinerds.net). Most of the hosted Addons here are active developed and supported by the members of the Community. Nerdsrepo is an unofficial Repository of the Kodi Media Center Software</description>
+        <summary lang="de">Addon Repository der Kodinerds Community</summary>
+        <description lang="de">Das 'Nerdsrepo' ist das Addon Repository der deutschen Kodi-Community 'Kodinerds' (www.kodinerds.net). Die meisten der hier im Nerdsrepo gehosteten Addons werden von den Mitgliedern der Community aktiv entwickelt und unterstützt. Das Nerdsrepo ist ein unoffizielles Repository der Kodi Media Center Software.</description>
+        <disclaimer/>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+	
+	
+<addon id="script.module.horus" name="Horus" version="1.1.5" provider-name="Caperucitaferoz">
+    <requires>
+        <import addon="script.module.six" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <description>Horus:
+"Señor de sus ojos"
+"Unificador de las dos tierras"
+"Señor de las estrellas circumpolares"
+"El de los dos ojos"
+        </description>
+        <disclaimer>En Horus no vais a encontrar ningún tipo de contenido: ni películas, ni series ni eventos deportivos.</disclaimer>
+        <platform>all</platform>
+        <assets>
+              <icon>icon.png</icon>
+              <fanart>fanart.jpg</fanart>
+              <screenshot>resources/media/Captura1.png</screenshot>
+              <screenshot>resources/media/Captura2.png</screenshot>
+              <screenshot>resources/media/Captura3.png</screenshot>
+              <screenshot>resources/media/Captura4.png</screenshot>
+        </assets>
+        <news>
+            - Añadido soporte para enlaces magnet-torrent
+        </news>
+        <forum>https://t.me/KodiManiac
+        https://t.me/acestream_spanish</forum>
+    </extension>
+</addon>	
+<addon
+	id="service.languagepreferencemanager.vn"
+	name="Language Preference Manager"
+	version="0.0.7.matrix.3"
+	provider-name="ace20022/scott967"
+	>
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+	</requires>
+	<extension point="xbmc.service" library="default.py" start="login"/>
+	<extension point="xbmc.python.script" library="default.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">Language Preference Manager</summary>
+		<description lang="en_GB">Sets the audio and subtitle track according to your language preferences</description>
+		<disclaimer lang="en_GB">For bugs, requests or general questions visit the Language Preference Manager thread on the Kodi forum.</disclaimer>
+		<platform>all</platform>
+		<news>Updated with changes required for Kodi 19 / Python 3</news>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+	</extension>
+
+</addon>	
+	
+	
+<addon id="service.subtitles.subscenev21"
+       name="Subscene.com ver 2.1"
+       version="2.1.0"
+       provider-name="Kodi Team">
+    <extension point="xbmc.subtitle.module"
+               library="service.py"/>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Get subtitles from Subscene.com</summary>
+        <description lang="en">Subscene.com provides subtitles in more than 50 languages, mainly in English, Arabic, Brazilian Portuguese, Farsi, Indonesian and Vietnamese.
+Other languages with a great number of subtitles are: Danish, French, Swedish, Dutch, Italian, Norwegian and Spanish.</description>
+        <disclaimer lang="en"/>
+        <platform>all</platform>
+        <language/>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <forum>http://forum.xbmc.org/showthread.php?tid=184854</forum>
+        <website/>
+        <email/>
+        <source>https://github.com/manacker/service.subtitles.subscene</source>
+        <assets>
+        <icon>logo.png</icon>
+        </assets>
+    </extension>
+</addon>	
+	
+	
 <addon id="repository.vmfmatrix" name="VietMedia Matrix Repo" version="1.0.0" provider-name="VietMediaMatrix">
 	<extension point="xbmc.addon.repository" name="VietMedia Matrix Add-on Repository">
 		<dir>
@@ -14,3 +556,4 @@
 		<assets><icon>icon.png</icon></assets>
 	</extension>
 </addon>
+</addons>
