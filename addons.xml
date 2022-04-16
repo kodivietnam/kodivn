@@ -614,7 +614,7 @@
        version="1.0.0"
        provider-name="NICE">
     <requires>
-        <!-- <import addon="xbmc.python" version="3.0.0"/> -->
+        <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.six" />
         <import addon="script.module.kodi-six" />
         <import addon="script.module.requests" />
