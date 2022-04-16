@@ -479,7 +479,7 @@
     </extension>
 </addon>
 	
-<addon id="repository.slyguy" name="Repository" provider-name="SlyGuy" version="0.0.2">
+<addon id="repository.slyguy" name="SlyGuy Repository" provider-name="SlyGuy" version="0.0.3">
   <extension point="xbmc.addon.repository" name="SlyGuy Repository">
     <dir>
       <info compressed="false">https://k.slyguy.xyz/.repo/addons.xml</info>
@@ -497,9 +497,10 @@
     <assets>
       <icon>icon.png</icon>
       <fanart>fanart.jpg</fanart>
-    </assets> 
+    </assets>
   </extension>
-</addon>	
+</addon>
+
 	
 <addon id="script.module.horus" name="Horus" version="1.1.5" provider-name="Caperucitaferoz">
     <requires>
