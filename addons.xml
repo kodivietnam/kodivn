@@ -608,61 +608,44 @@
     </extension>
 </addon>
 	
-<addon id="service.subtitles.subscenev21"
-       name="Subscene.com ver 2.1"
-       version="2.1.0"
-       provider-name="Kodi Team">
-    <extension point="xbmc.subtitle.module"
-               library="service.py"/>
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en">Get subtitles from Subscene.com</summary>
-        <description lang="en">Subscene.com provides subtitles in more than 50 languages, mainly in English, Arabic, Brazilian Portuguese, Farsi, Indonesian and Vietnamese.
-Other languages with a great number of subtitles are: Danish, French, Swedish, Dutch, Italian, Norwegian and Spanish.</description>
-        <disclaimer lang="en"/>
-        <platform>all</platform>
-        <language/>
-        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-        <forum>http://forum.xbmc.org/showthread.php?tid=184854</forum>
-        <website/>
-        <email/>
-        <source>https://github.com/manacker/service.subtitles.subscene</source>
-        <assets>
-        <icon>logo.png</icon>
-        </assets>
-    </extension>
-</addon>
-
-<addon id="service.subtitles.subscene2"
-       name="Subscene.com v2.1.2"
-       version="2.1.2"
-       provider-name="Kodi Team">
+<addon id="service.subtitles.subscenenice"
+       name="Subscene 2022"
+       version="1.0.0"
+       provider-name="NICE">
     <requires>
         <!-- <import addon="xbmc.python" version="3.0.0"/> -->
         <import addon="script.module.six" />
         <import addon="script.module.kodi-six" />
         <import addon="script.module.requests" />
     </requires>
-    <extension point="xbmc.subtitle.module"
-               library="service.py"/>
+    <extension point="xbmc.subtitle.module" library="service.py"/>
     <extension point="xbmc.addon.metadata">
-        <summary lang="en">Get subtitles from Subscene.com</summary>
-        <description lang="en">Subscene.com provides subtitles in more than 50 languages, mainly in English, Arabic, Brazilian Portuguese, Farsi, Indonesian and Vietnamese.
-Other languages with a great number of subtitles are: Danish, French, Swedish, Dutch, Italian, Norwegian and Spanish.</description>
+        <summary lang="en">SUBSCENE HỔ TRỢ KODI 19.4</summary>
+        <description lang="en">SUBSCENE HỔ TRỢ KODI 19.4
+Liên Hệ: Fb.Com/PhatDatPQ
+Donate: 
+        ♥ Argibank ♥
+        ♥ 7790205260097 ♥
+        ♥ ĐOÀN PHÁT ĐẠT ♥
+ĐÓNG GÓP CHO CỘNG ĐỒNG KODI VN - VUI LÒNG KHÔNG MANG ĐI THƯƠNG MẠI. CẢM ƠN ♥
+        </description>
         <disclaimer lang="en"/>
         <platform>all</platform>
         <language/>
         <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-        <forum>http://forum.xbmc.org/showthread.php?tid=184854</forum>
+        <forum>https://www.facebook.com/groups/704400303417098</forum>
         <website/>
         <email/>
         <source>https://github.com/manacker/service.subtitles.subscene</source>
-        <assets>
-        <icon>logo.png</icon>
-        </assets>		
+        <news>
+[v1.0.0]:
+  * Subscene Hổ Trợ Kodi 19.4
+        </news>
     </extension>
 </addon>
-	
-	
+
+
+
 <addon id="repository.bimozie" version="1.2" name="Bimozie repository" provider-name="billy.nguyen">
     <requires>
         <import addon="xbmc.addon" version="12.0.0"/>
