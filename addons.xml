@@ -44,6 +44,58 @@
   </assets>
 </extension>
 </addon>
+
+<addon id="plugin.video.bimozie-nice" name="BimoZie Nice" version="1.0.0" provider-name="NICE">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.six" version="1.14.0"/>
+        <import addon="script.module.kodi-six" version="0.1.3.1"/>
+        <import addon="script.module.beautifulsoup4" version="4.3.1"/>
+        <import addon="script.module.requests" version="2.7.0"/>
+        <import addon="script.module.requests-cache" version="0.5.2"/>
+        <import addon="script.module.pycryptodome" version="3.4.3"/>
+        <import addon="script.module.routing" version="0.2.3"/>
+        <import addon="script.module.cloudscraper" version="1.2.52"/>
+        <import addon="script.module.urlresolver" version="7.0.00"/>
+        <import addon="script.module.resolveurl" version="5.1.00"/>
+        <import addon="script.common.plugin.cache" version="2.5.5"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="login"/>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Bimozie Nice addon for Kodi 19</summary>
+        <description lang="en">
+        Addon Được Fix Từ SRC Bác: billy.nguyen.
+        Thông Tin Cập Nhật:
+            - Fix Site HHKungFu.TV
+            - Fix Site PhimMoi
+            - Fix Site Vivuphim
+            - Fix Site AnimeHay
+            - Fix Site HDvietnam.com
+            - Chờ bản tiếp theo.
+        Thông Tin Liên Hệ:
+                - FB.Com/PhatDatPQ
+        </description>
+        <disclaimer lang="en">Addon Được Fix Từ SRC Bác: billy.nguyen.
+        Thông Tin Cập Nhật:
+            - Fix Site PhimMoi
+            - Fix Site Vivuphim
+            - Fix Site HHKungFu.Tv
+            - Fix Site AnimeHay
+            - Fix Site HDvietnam.com
+        Thông Tin Liên Hệ:
+            - FB.Com/PhatDatPQ
+        </disclaimer>
+        <platform>all</platform>
+        <email>phatdatpq@gmail.com</email>
+        <source>https://github.com/billythekids/plugin.video.bimozie</source>
+        <assets>
+            <icon>resources/icon.png</icon>
+        </assets>
+    </extension>
+</addon>
 	
 
 <addon id="plugin.program.autocompletion" name="AutoCompletion for virtual keyboard" version="2.0.1" provider-name="Philipp Temminghoff (phil65),sualfred">
@@ -614,15 +666,15 @@
        version="1.0.0"
        provider-name="NICE">
     <requires>
-        <import addon="xbmc.python" version="3.0.0"/>
+        <!-- <import addon="xbmc.python" version="3.0.0"/> -->
         <import addon="script.module.six" />
         <import addon="script.module.kodi-six" />
         <import addon="script.module.requests" />
     </requires>
     <extension point="xbmc.subtitle.module" library="service.py"/>
     <extension point="xbmc.addon.metadata">
-        <summary lang="en">SUBSCENE HỔ TRỢ KODI 19.4</summary>
-        <description lang="en">SUBSCENE HỔ TRỢ KODI 19.4
+        <summary lang="en">SUBSCENE HỔ TRỢ KODI 18 - 19</summary>
+        <description lang="en">SUBSCENE HỔ TRỢ KODI 18 - 19
 Liên Hệ: Fb.Com/PhatDatPQ
 Donate: 
         ♥ Argibank ♥
@@ -640,7 +692,7 @@ Donate:
         <source>https://github.com/manacker/service.subtitles.subscene</source>
         <news>
 [v1.0.0]:
-  * Subscene Hổ Trợ Kodi 19.4
+  * Subscene Hổ Trợ Kodi 18 - 19
         </news>
     </extension>
 </addon>
