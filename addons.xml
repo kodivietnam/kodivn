@@ -26,7 +26,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.vietmediafplus" version="0.0.1" name="VietMediaF Plus" provider-name="mkendo">
+<addon id="plugin.video.vietmediafplus" version="0.0.2" name="VietMediaF Plus" provider-name="mkendo">
 <requires>
   <import addon="xbmc.python" version="3.0.0"/>
   <import addon="script.module.codequick" version="1.0.2"/>
@@ -45,7 +45,7 @@
 </extension>
 </addon>
 
-<addon id="plugin.video.vnmedia" version="0.5.0" name="VN Media" provider-name="mkendo">
+<addon id="plugin.video.vnmedia" version="0.5.1" name="VN Media" provider-name="mkendo">
 <requires>
   <import addon="xbmc.python" version="3.0.0"/>
   <import addon="script.module.codequick" version="1.0.2"/>
