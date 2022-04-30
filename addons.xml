@@ -25,6 +25,26 @@
         </assets>
     </extension>
 </addon>
+
+<addon id="plugin.video.vietmediafplus" version="0.0.1" name="VietMediaF Plus" provider-name="mkendo">
+<requires>
+  <import addon="xbmc.python" version="3.0.0"/>
+  <import addon="script.module.codequick" version="1.0.2"/>
+  <import addon="script.module.beautifulsoup4" version="4.9.3"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="vi">VietMediaF Plus</summary>
+  <description lang="vi_GB">VietMediaF Plus là addon được phát triển bởi cộng đồng KODI Việt Nam</description>
+  <disclaimer lang="vi_GB">Nội dung được chia sẻ bởi người dùng internet, VietMediaF Plus không kiểm soát cũng như không chịu trách nhiệm về nội dung được chia sẻ. Khán giả đồng ý và cân nhắc nội dung khi sử dụng tài nguyên.</disclaimer>
+  <assets>
+    <icon>icon.png</icon>
+  </assets>
+</extension>
+</addon>
+
 <addon id="plugin.video.vnmedia" version="0.5.0" name="VN Media" provider-name="mkendo">
 <requires>
   <import addon="xbmc.python" version="3.0.0"/>
