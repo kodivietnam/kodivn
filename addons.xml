@@ -45,7 +45,7 @@
 </extension>
 </addon>
 
-<addon id="plugin.video.vnmedia" version="0.5.6" name="VN Media" provider-name="mkendo">
+<addon id="plugin.video.vnmedia" version="0.5.7" name="VN Media" provider-name="mkendo">
 <requires>
   <import addon="xbmc.python" version="3.0.0"/>
   <import addon="script.module.codequick" version="1.0.2"/>
