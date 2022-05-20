@@ -45,7 +45,7 @@
 </extension>
 </addon>
 
-<addon id="plugin.video.vnmedia" version="0.6.6" name="VN Media" provider-name="mkendo">
+<addon id="plugin.video.vnmedia" version="0.6.7" name="VN Media" provider-name="mkendo">
 <requires>
   <import addon="xbmc.python" version="3.0.0"/>
   <import addon="script.module.codequick" version="1.0.2"/>
@@ -58,10 +58,18 @@
 <extension point="xbmc.addon.metadata">
   <summary lang="vi">VN Media</summary>
   <description lang="vi_GB">VN Media là addon được phát triển bởi cộng đồng KODI Việt Nam</description>
-  <disclaimer lang="vi_GB">Nội dung lấy trên mạng và do người dùng tự upload lên.</disclaimer>
+  <disclaimer lang="vi_GB">Nội dung được chia sẻ bởi người dùng internet, VNM không kiểm soát cũng như không chịu trách nhiệm về nội dung được chia sẻ. Khán giả đồng ý và cân nhắc nội dung khi sử dụng tài nguyên.</disclaimer>
+  <platform>all</platform>
   <assets>
-    <icon>icon.png</icon>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
   </assets>
+  <news>
+   V0.6.7 (20/5/2022)
+  - Them cakhia.org
+*Tài khoản nhận Donate:
+MoMo/TP Bank: 0979412210
+  </news>
 </extension>
 </addon>
 
