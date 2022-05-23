@@ -26,11 +26,11 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.vietmediafplus" version="0.0.3" name="VietMediaF Plus" provider-name="mkendo">
+<addon id="plugin.video.vietmediafplus" version="0.0.4" name="VietMediaF Plus" provider-name="mkendo">
 <requires>
   <import addon="xbmc.python" version="3.0.0"/>
-  <import addon="script.module.codequick" version="1.0.2"/>
-  <import addon="script.module.beautifulsoup4" version="4.9.3"/>
+  <import addon="script.module.pyqrcode"/>
+  <import addon="script.module.codequick" version="1.0.2"/>  
 </requires>
 <extension point="xbmc.python.pluginsource" library="main.py">
   <provides>video</provides>
