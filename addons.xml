@@ -45,7 +45,7 @@
 </extension>
 </addon>
 
-<addon id="plugin.video.vnmedia" name="VN Media" version="0.7.8" provider-name="manhkendo">
+<addon id="plugin.video.vnmedia" name="VN Media" version="0.7.9" provider-name="mkendo">
 <requires>
   <import addon="xbmc.python" version="3.0.0"/>
   <import addon="script.module.codequick" version="1.0.2"/>
@@ -53,7 +53,7 @@
   <import addon="script.module.inputstreamhelper" version="0.5.10"/>
   <import addon="script.module.pyqrcode" version="1.2.1"/>
 </requires>
-<extension point="xbmc.python.pluginsource" library="kendo.py">
+<extension point="xbmc.python.pluginsource" library="mkendo.py">
   <provides>video</provides>
 </extension>
 <extension point="xbmc.service" library="service.py"/>
@@ -70,7 +70,7 @@
     <fanart>fanart.jpg</fanart>
   </assets>
   <news>
-   V0.7.8_17h17 (30/5/2022)
+   V0.7.9_18.29.30.5.22)
   - Them bongdaplus
   - Them autorun
   - Them tinh nang tai
@@ -83,6 +83,7 @@ MoMo/TP Bank: 0979412210
   </news>
 </extension>
 </addon>
+
 
 <addon id="plugin.program.autocompletion" name="AutoCompletion for virtual keyboard" version="2.0.1" provider-name="Philipp Temminghoff (phil65),sualfred">
     <requires>
