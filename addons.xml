@@ -45,7 +45,7 @@
 </extension>
 </addon>
 
-<addon id="plugin.video.vnmedia" version="0.7.7" name="VN Media" provider-name="mkendo">
+<addon id="plugin.video.vnmedia" name="VN Media" version="0.7.8" provider-name="manhkendo">
 <requires>
   <import addon="xbmc.python" version="3.0.0"/>
   <import addon="script.module.codequick" version="1.0.2"/>
@@ -53,24 +53,35 @@
   <import addon="script.module.inputstreamhelper" version="0.5.10"/>
   <import addon="script.module.pyqrcode" version="1.2.1"/>
 </requires>
-<extension point="xbmc.python.pluginsource" library="kendo">
+<extension point="xbmc.python.pluginsource" library="kendo.py">
   <provides>video</provides>
 </extension>
+<extension point="xbmc.service" library="service.py"/>
 <extension point="xbmc.addon.metadata">
+  <reuselanguageinvoker>true</reuselanguageinvoker>
   <summary lang="vi">VN Media</summary>
   <description lang="vi_GB">VN Media là addon được phát triển bởi cộng đồng KODI Việt Nam</description>
   <disclaimer lang="vi_GB">Nội dung được chia sẻ bởi người dùng internet, VNM không kiểm soát cũng như không chịu trách nhiệm về nội dung được chia sẻ. Khán giả đồng ý và cân nhắc nội dung khi sử dụng tài nguyên.</disclaimer>
+  <language></language>
   <platform>all</platform>
+  <license>GPL-2.0</license>
   <assets>
-      <icon>icon.png</icon>
-      <fanart>fanart.jpg</fanart>
+    <icon>icon.png</icon>
+    <fanart>fanart.jpg</fanart>
   </assets>
   <news>
+   V0.7.8_17h17 (30/5/2022)
+  - Them bongdaplus
+  - Them autorun
+  - Them tinh nang tai
+  - Them tinh nang Mobile Play
+  - Fix sv bongda
+  - ......
+  
 *Tài khoản nhận Donate:
 MoMo/TP Bank: 0979412210
   </news>
 </extension>
-</addon>
 
 <addon id="plugin.program.autocompletion" name="AutoCompletion for virtual keyboard" version="2.0.1" provider-name="Philipp Temminghoff (phil65),sualfred">
     <requires>
