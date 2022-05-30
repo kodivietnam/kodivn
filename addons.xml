@@ -45,7 +45,7 @@
 </extension>
 </addon>
 
-<addon id="plugin.video.vnmedia" name="VN Media" version="0.8.0" provider-name="mkendo">
+<addon id="plugin.video.vnmedia" name="VN Media" version="0.8.1" provider-name="mkendo">
 <requires>
   <import addon="xbmc.python" version="3.0.0"/>
   <import addon="script.module.codequick" version="1.0.2"/>
@@ -70,14 +70,6 @@
     <fanart>fanart.jpg</fanart>
   </assets>
   <news>
-   V0.8.0
-  - Them bongdaplus
-  - Them autorun
-  - Them tinh nang tai
-  - Them tinh nang Mobile Play
-  - Fix sv bongda
-  - ......
-  
 *Tài khoản nhận Donate:
 MoMo/TP Bank: 0979412210
   </news>
