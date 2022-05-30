@@ -82,6 +82,7 @@
 MoMo/TP Bank: 0979412210
   </news>
 </extension>
+</addon>
 
 <addon id="plugin.program.autocompletion" name="AutoCompletion for virtual keyboard" version="2.0.1" provider-name="Philipp Temminghoff (phil65),sualfred">
     <requires>
