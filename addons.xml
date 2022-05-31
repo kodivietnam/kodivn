@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
 <addon id="plugin.video.vietmediaF" name="VietmediaF" version="2.0.2.beta.7" provider-name="ducnn">
     <requires>
     <import addon="xbmc.python" version="3.0.0"/>
@@ -23,8 +23,6 @@
         </assets>
     </extension>
 </addon>
-
-
 <addon id="plugin.video.vietmediafplus" version="0.0.5" name="VietMediaF Plus" provider-name="mkendo">
 <requires>
   <import addon="xbmc.python" version="3.0.0"/>
@@ -43,7 +41,6 @@
   </assets>
 </extension>
 </addon>
-
 <addon id="plugin.video.vnmedia" name="VN Media" version="0.8.2" provider-name="mkendo">
 <requires>
   <import addon="xbmc.python" version="3.0.0"/>
@@ -74,8 +71,6 @@ MoMo/TP Bank: 0979412210
   </news>
 </extension>
 </addon>
-
-
 <addon id="plugin.program.autocompletion" name="AutoCompletion for virtual keyboard" version="2.0.1" provider-name="Philipp Temminghoff (phil65),sualfred">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
