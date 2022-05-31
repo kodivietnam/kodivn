@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addons>
-<addon id="plugin.video.vietmediaF" name="VietmediaF" version="2.0.2.beta.6" provider-name="ducnn">
+<addon id="plugin.video.vietmediaF" name="VietmediaF" version="2.0.2.beta.7" provider-name="ducnn">
     <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.six"/>
     <import addon="script.module.kodi-six"/>
     <import addon="script.module.requests"/>
-    <import addon="script.module.pysocks"/>
-    <import addon="script.module.inputstreamhelper" optional="true"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
     </extension>
 	<extension point="xbmc.addon.metadata">
+        <reuselanguageinvoker>true</reuselanguageinvoker>
         <summary lang="en">VietmediaF for Kodi 19</summary>
         <description lang="en">
             VietmediaF
@@ -25,6 +23,7 @@
         </assets>
     </extension>
 </addon>
+
 
 <addon id="plugin.video.vietmediafplus" version="0.0.5" name="VietMediaF Plus" provider-name="mkendo">
 <requires>
