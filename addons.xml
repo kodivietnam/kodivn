@@ -23,7 +23,7 @@
         </assets>
     </extension>
 </addon>
-<addon id="plugin.video.vietmediafplus" version="0.0.5" name="VietMediaF Plus" provider-name="mkendo">
+<addon id="plugin.video.vietmediafplus" version="0.0.6" name="VietMediaF Plus" provider-name="mkendo">
 <requires>
   <import addon="xbmc.python" version="3.0.0"/>
   <import addon="script.module.pyqrcode"/>
@@ -33,6 +33,7 @@
   <provides>video</provides>
 </extension>
 <extension point="xbmc.addon.metadata">
+  <reuselanguageinvoker>true</reuselanguageinvoker>
   <summary lang="vi">VietMediaF Plus</summary>
   <description lang="vi_GB">VietMediaF Plus là addon được phát triển bởi cộng đồng KODI Việt Nam</description>
   <disclaimer lang="vi_GB">Nội dung được chia sẻ bởi người dùng internet, VietMediaF Plus không kiểm soát cũng như không chịu trách nhiệm về nội dung được chia sẻ. Khán giả đồng ý và cân nhắc nội dung khi sử dụng tài nguyên.</disclaimer>
