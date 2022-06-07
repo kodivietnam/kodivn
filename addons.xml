@@ -372,7 +372,7 @@ MoMo/TP Bank: 0979412210
       </assets>
   </extension>
 </addon>	
-<addon id="repository.EzzerMacsWizard" name="EzzerMacs Wizard Repository" version="1.1.6" provider-name="EzzerMac">
+  <addon id="repository.EzzerMacsWizard" name="EzzerMacs Wizard Repository" version="1.1.6" provider-name="EzzerMac">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
         </requires>
@@ -429,7 +429,7 @@ MoMo/TP Bank: 0979412210
 		<fanart>fanart.jpg</fanart>
 		</assets>
     </extension>
-</addon>	
+</addon>
 	
 <addon id="repository.hieuitmediacenter"
 		name="[COLOR red][B]HieuIT[/B][/COLOR] [COLOR yellow][B]Repository[/B][/COLOR]"
