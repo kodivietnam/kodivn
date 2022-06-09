@@ -706,31 +706,7 @@ MoMo/TP Bank: 0979412210
 
 </addon>
 
-<addon id="service.subtitles.subscene"
-       name="Subscene.com"
-       version="1.9.12"
-       provider-name="wuff, jarmo, CrowleyAJ">
-    <requires>
-        <!-- <import addon="xbmc.python" version="3.0.0"/> -->
-    </requires>
-    <extension point="xbmc.subtitle.module"
-               library="service.py"/>
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en">Get subtitles from Subscene.com</summary>
-        <description lang="en">Subscene.com provides subtitles in more than 50 languages for TV-Series, Movies, and Music videos, phrase by phrase curated and perfected by users.[CR][CR]Note: Needs kodi-vfs-rar and/or kodi-vfs-libarchive addon to extract rar files.</description>
-        <disclaimer lang="en"/>
-        <platform>all</platform>
-        <language/>
-        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-        <forum>http://forum.xbmc.org/showthread.php?tid=184854</forum>
-        <website/>
-        <email/>
-        <source>https://github.com/AnonTester/service.subtitles.subscene</source>
-        <assets>
-            <icon>icon.png</icon>
-        </assets>
-    </extension>
-</addon>
+
 	
 <addon id="service.subtitles.subscenenice"
        name="Subscene 2022"
