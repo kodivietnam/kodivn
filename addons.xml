@@ -706,6 +706,28 @@ MoMo/TP Bank: 0979412210
 
 </addon>
 
+<addon id="service.subtitles.sub19plus" name="Sub19Plus" version="0.0.1" provider-name="mkendo">
+<requires>
+<import addon="xbmc.python" version="3.0.0"/>
+</requires>
+<extension point="xbmc.subtitle.module" library="service.py"/>
+<extension point="xbmc.addon.metadata">
+ <reuselanguageinvoker>true</reuselanguageinvoker>
+ <summary lang="vi">Subscene dành cho KODI 19+</summary>
+ <description lang="vi">Addon tải phụ đề từ trang Subscene.com, dành cho KODI 19+</description>
+ <disclaimer lang="vi">Addon tải phụ đề từ trang Subscene.com, dành cho KODI 19+</disclaimer>
+ <platform>all</platform>
+ <language></language>
+ <license>GPL-2.0</license>
+ <assets>
+  <icon>icon.png</icon>
+ </assets>
+ <news>
+*Tài khoản nhận Donate:
+MoMo/TP Bank: 0979412210
+ </news>
+</extension>
+</addon>
 
 	
 <addon id="service.subtitles.subscenenice"
