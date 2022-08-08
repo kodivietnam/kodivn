@@ -669,7 +669,23 @@ MoMo/TP Bank: 0979412210
 		<assets><icon>icon.png</icon></assets>
 	</extension>
 </addon>
-	
+<addon id="script.module.pyqrcode" version="1.2.1.4" name="pyQRcode" provider-name="Michael Nooner">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+    </requires>
+    <extension library="lib" point="xbmc.python.module" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">A Python interface to generate QR Code</summary>
+        <description lang="en_GB">A Python interface to generate QR Code</description>
+        <website>https://pypi.org/project/PyQRCode</website>
+        <license>BSD-3-Clause</license>
+        <platform>all</platform>
+        <source>https://github.com/mnooner256/pyqrcode</source>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>	
 <addon id="script.module.horus" name="Horus" version="1.1.5" provider-name="Caperucitaferoz">
     <requires>
         <import addon="script.module.six" />
