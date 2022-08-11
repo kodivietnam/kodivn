@@ -45,10 +45,11 @@
 <addon id="plugin.video.vnmedia" name="VN Media" version="1.3.7" provider-name="mkendo">
 <requires>
   <import addon="xbmc.python" version="3.0.0"/>
-  <import addon="script.module.codequick" version="1.0.2"/>
-  <import addon="script.module.beautifulsoup4" version="4.9.3"/>
-  <import addon="script.module.inputstreamhelper" version="0.5.10"/>
-  <import addon="script.module.pyqrcode" version="1.2.1"/>
+  <import addon="script.module.codequick"/>
+  <import addon="script.module.beautifulsoup4"/>
+  <import addon="script.module.inputstreamhelper"/>
+  <import addon="script.module.pyqrcode"/>
+  <import addon="inputstream.adaptive"/>
 </requires>
 <extension point="xbmc.python.pluginsource" library="mkendo.py">
   <provides>video</provides>
@@ -59,7 +60,7 @@
   <summary lang="vi">VN Media</summary>
   <description lang="vi_GB">VN Media là addon được phát triển bởi cộng đồng KODI Việt Nam</description>
   <disclaimer lang="vi_GB">Nội dung được chia sẻ bởi người dùng internet, VNM không kiểm soát cũng như không chịu trách nhiệm về nội dung được chia sẻ. Khán giả đồng ý và cân nhắc nội dung khi sử dụng tài nguyên.</disclaimer>
-  <language></language>
+  <language>vi</language>
   <platform>all</platform>
   <license>GPL-2.0</license>
   <assets>
