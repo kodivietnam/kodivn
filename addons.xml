@@ -143,7 +143,23 @@ MoMo/TP Bank: 0979412210
         </assets>
     </extension>
 </addon>	
-
+<addon id="plugin.program.fastskin" name="Skin Fast" version="0.0.1" provider-name="primaeval, mkendo">
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+            <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <reuselanguageinvoker>false</reuselanguageinvoker>
+        <description lang="en">Tạo giao diện mới không hiệu ứng.</description>
+        <disclaimer lang="en"></disclaimer>
+        <language></language>
+        <platform>all</platform>
+        <license>GPLv2</license>
+        <forum></forum>
+        <source></source>
+        <website></website>
+        <assets><icon>icon.png</icon></assets>
+    </extension>
+</addon>		
 <addon id="plugin.program.super.favourites" name="Super Favourites" version="2.2.6" provider-name="jmooremcc, spoyser">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
@@ -821,19 +837,3 @@ Donate:
     </extension>
 </addon>
 </addons>
-<addon id="script.skin.tightener" name="Skin Tightener" version="0.0.7" provider-name="primaeval">
-    <extension point="xbmc.python.script" library="addon.py">
-            <provides>executable</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <description lang="en">Copies and removes animation delays from skins.</description>
-        <disclaimer lang="en"></disclaimer>
-        <language></language>
-        <platform>all</platform>
-        <license>GPLv2</license>
-        <forum></forum>
-        <source></source>
-        <website></website>
-        <email>primaeval</email>
-    </extension>
-</addon>
