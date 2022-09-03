@@ -165,7 +165,6 @@ Vui lòng check update thường xuyên để cập nhật bản fix lỗi
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.requests" />
         <import addon="script.module.six" />
-        <import addon="script.speedtester" />
     </requires>    
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>executable</provides>
