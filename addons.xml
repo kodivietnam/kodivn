@@ -23,7 +23,7 @@
         </assets>
     </extension>
 </addon>
-<addon id="plugin.video.vietmediafplus" version="0.0.9" name="VietMediaF Plus" provider-name="mkendo">
+<addon id="plugin.video.vietmediafplus" version="1.1.0" name="VietMediaF Plus" provider-name="mkendo">
 <requires>
   <import addon="xbmc.python" version="3.0.0"/>
   <import addon="script.module.pyqrcode"/>
