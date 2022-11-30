@@ -42,7 +42,7 @@
   </assets>
 </extension>
 </addon>
-<addon id="plugin.video.vnmedia" name="VN Media" version="1.6.6" provider-name="mkendo">
+<addon id="plugin.video.vnmedia" name="VN Media" version="1.6.7" provider-name="mkendo">
 <requires>
   <import addon="xbmc.python" version="3.0.0"/>
   <import addon="script.module.codequick"/>
@@ -69,10 +69,10 @@
   </assets>
   <news>
 Vui lòng check update thường xuyên để cập nhật bản fix lỗi
-Ủng hộ quỹ Vì người nghèo Việt Nam
- - VBSP (Ngân hàng Chính sách xã hội)
- - CTK: Quỹ Vì người nghèo trung ương
- - STK: 1000001000171717
+Ủng hộ CT "Vì người nghèo - không để ai bị bỏ lại phía sau"
+ - Bằng cách chuyển khoản tới Quỹ Vì người nghèo Trung ương
+ - Số tài khoản: V999 tại ngân hàng Vietcombank
+ - Trân trọng cảm ơn nghĩa cử cao đẹp của quý vị
   </news>
 </extension>
 </addon>
