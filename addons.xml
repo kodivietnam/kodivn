@@ -1069,7 +1069,7 @@ MoMo/TP Bank: 0979412210
 	
 <addon id="service.subtitles.subscenenice"
        name="Subscene 2022"
-       version="1.0.0"
+       version="1.0.0.3"
        provider-name="NICE">
     <requires>
         <!-- <import addon="xbmc.python" version="3.0.0"/> -->
