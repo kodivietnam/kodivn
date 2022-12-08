@@ -76,6 +76,22 @@ Vui lòng check update thường xuyên để cập nhật bản fix lỗi
   </news>
 </extension>
 </addon>
+	
+<addon id="plugin.video.vavooto" name="VAVOO.TO" version="5.2" provider-name="michaz">
+    <requires>
+        <import addon="script.module.requests"/>
+        <import addon="inputstream.ffmpegdirect" optional="true" /> 
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="lib/main.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>	
+	
 <addon id="plugin.program.autocompletion" name="AutoCompletion for virtual keyboard" version="2.0.5" provider-name="Philipp Temminghoff (phil65), sualfred, xulek, finkleandeinhorn">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
