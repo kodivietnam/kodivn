@@ -218,20 +218,8 @@ Vui lòng check update thường xuyên để cập nhật bản fix lỗi
 	<extension point="xbmc.service" library="default.py" />
 	<extension point="xbmc.addon.metadata">
 	<summary lang="en_GB">Last Played</summary>
-	<summary lang="en_US">Last Played</summary>
-	<summary lang="en_AU">Last Played</summary>
-	<summary lang="en_NZ">Last Played</summary>
-		<summary lang="pt_PT">Ultimos Vistos</summary>
-		<summary lang="pt_BR">Ultimos Vistos</summary>
-		<summary lang="sk_sk">Last Played (naposledy videné)</summary>
-		<description lang="en_GB">List of the last movies, episodes and music played, including streaming sources from any addon</description>
-		<description lang="en_US">List of the last movies, episodes and music played, including streaming sources from any addon</description>
-		<description lang="en_AU">List of the last movies, episodes and music played, including streaming sources from any addon</description>
-		<description lang="en_NZ">List of the last movies, episodes and music played, including streaming sources from any addon</description>
-		<description lang="pt_PT">Ultimos filmes, episodios e musicas tocadas, incluindo fontes de streaming de qualquer addon</description>
-		<description lang="pt_BR">Ultimos filmes, episodios e musicas tocadas, incluindo fontes de streaming de qualquer addon</description>
-		<description lang="sk_SK">Naposledy prehrávané filmy, seriály a hudba, vrátane streamov z ľubovoľného doplnku</description>
-		<disclaimer lang="en_GB"></disclaimer>
+        <description lang="en_GB">List of the last movies, episodes and music played, including streaming sources from any addon</description>
+        <disclaimer lang="en_GB"></disclaimer>
 		<platform>all</platform>
 		<license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
 		<source>https://github.com/5-star/plugin.video.last_played</source>
@@ -243,7 +231,7 @@ Vui lòng check update thường xuyên để cập nhật bản fix lỗi
 	
 <addon id="plugin.video.youtube" name="YouTube" version="6.8.22.1" provider-name="anxdpanic, bromix">
   <requires>
-    <import addon="xbmc.python" />
+    <import addon="xbmc.python" version="3.0.0" />
     <import addon="script.module.six" />
     <import addon="script.module.requests" />
     <import addon="script.module.inputstreamhelper" />
