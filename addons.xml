@@ -1020,8 +1020,8 @@ Supports: OpenSubtitles, BSPlayer, Podnadpisi.NET, Subscene, Addic7ed
 <addon
 	id="service.languagepreferencemanager.vn"
 	name="Language Preference Manager"
-	version="0.0.7.matrix.3"
-	provider-name="ace20022/scott967"
+	version="0.1.6"
+	provider-name="ace20022/scott967/rockrider69"
 	>
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
