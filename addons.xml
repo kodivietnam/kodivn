@@ -178,9 +178,7 @@ Vui lòng check update thường xuyên để cập nhật bản fix lỗi
   <extension point="xbmc.service" library="service.py" start="startup" />
   <extension point="xbmc.addon.metadata">
     <summary lang="en_GB">Put all your favourites bits of all your favourites addons into one easy to use addon.</summary>
-    <summary lang="es_ES">Ponga todas sus partes favoritas de todos sus complementos favoritos en un complemento fácil de usar.</summary>
     <description lang="en_GB">Super Favourites is a better way of managing your Kodi Favourites.[CR][CR]Virtually any menu item within Kodi can be added to Super Favourites, even from addons that don't normally provide this feature.[CR][CR]Super Favourites allows you to better manage your Kodi favourites, including the creation of sub-folders, into which your Kodi favourites can then be copied or moved into.[CR][CR]This allows you to create you own custom addon with just the best bits of your favourite addons. Search your favourite addons, play your favourite music, read your favourite comic strips, select your favourite playlists, browse your favourite movies, listen to your favourite radio stations, watch your favourite cartoons, the possibilities are endless, all from within one easy to use addon.</description>
-    <description lang="es_ES">Super Favoritos es la mejor forma de administrar sus favoritos de Kodi.[CR][CR]Prácticamente cualquier elemento de menú dentro de Kodi se puede agregar a Súper favoritos, incluso desde complementos que normalmente no brindan esta función.[CR][CR]Super Favoritos le permite administrar mejor sus favoritos de Kodi, incluída la creación de subcarpetas, en las que puede copiar o mover sus secciones o addons preferidos.[CR][CR]Esto le permite crear su propio complemento personalizado con lo mejor. Busque sus addons preferidos, reproduzca su música favorita, lea sus historias favoritas, seleccione sus listas de reproducción, explore sus películas, escuche sus estaciones de radio, vea sus dibujos animados, las posibilidades son infinitas, todos sus favoritos desde un solo uso addon, fácil de añadir.</description>
     <platform>all</platform>
     <language>en es</language>
     <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
@@ -231,7 +229,7 @@ Vui lòng check update thường xuyên để cập nhật bản fix lỗi
 	</extension>
 </addon>
 	
-<addon id="plugin.video.youtube" name="YouTube" version=6.8.22.1" provider-name="anxdpanic, bromix">
+<addon id="plugin.video.youtube" name="YouTube" version="6.8.22.1" provider-name="anxdpanic, bromix">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.six" version="1.11.0"/>
@@ -244,95 +242,20 @@ Vui lòng check update thường xuyên để cập nhật bản fix lỗi
   <extension point="xbmc.service" library="resources/lib/startup.py"/>
   <extension point="xbmc.python.module" library="resources/lib/"/>
   <extension point="xbmc.addon.metadata">
-    <news>
-[chg] Icons and Fanart updated |contrib: papercore-dev|
-[add] Add setting General - Hide short videos (1 minute or less)
-[add] Add support for /shorts/video_id format links |contrib: jmbreuer|
-[add] Add Fanart to Subscriptions
-[add] Access to Saved Playlists
-[fix] Display of channel fanart
-[fix] Misc missing fanart
-[lang] translation updates from Weblate
-        </news>
     <assets>
       <icon>icon.png</icon>
       <fanart>fanart.jpg</fanart>
     </assets>
     <platform>all</platform>
     <license>GPL-2.0-only</license>
-    <forum>https://ytaddon.panicked.xyz/forum</forum>
-    <website>https://www.youtube.com</website>
-    <source>https://github.com/anxdpanic/plugin.video.youtube</source>
     <reuselanguageinvoker>true</reuselanguageinvoker>
-    <summary lang="bg_BG">Добавка за YouTube</summary>
-    <summary lang="cs_CZ">Plugin pro YouTube</summary>
-    <summary lang="da_DK">Plugin til YouTube</summary>
-    <summary lang="de_DE">Plugin für YouTube</summary>
-    <summary lang="el_GR">Πρόσθετο YouTube</summary>
     <summary lang="en_GB">Plugin for YouTube</summary>
-    <summary lang="es_ES">Plugin para YouTube</summary>
-    <summary lang="es_MX">Complemento para YouTube</summary>
-    <summary lang="fi_FI">YouTube-lisäosa</summary>
-    <summary lang="fr_FR">Plugin pour YouTube</summary>
-    <summary lang="he_IL">תוסף עבור YouTube</summary>
-    <summary lang="hr_HR">Dodatak za YouTube</summary>
-    <summary lang="hu_HU">YouTube kiegészítő</summary>
-    <summary lang="it_IT">Plugin per YouTube</summary>
-    <summary lang="ko_KR">유튜브 플러그인</summary>
-    <summary lang="nb_NO">Tillegg for YouTube</summary>
-    <summary lang="nl_NL">Plugin voor YouTube</summary>
-    <summary lang="pl_PL">Wtyczka YouTube</summary>
-    <summary lang="ru_RU">Видеодополнение YouTube</summary>
-    <summary lang="sk_SK">Doplnok pre YouTube</summary>
-    <summary lang="tr_TR">YouTube için eklenti</summary>
     <summary lang="vi_VN">Plugin dành cho YouTube</summary>
-    <summary lang="zh_CN">油管插件</summary>
-    <summary lang="zh_TW">YouTube附加元件</summary>
-    <description lang="bg_BG">YouTube е един от най-големите уеб сайтове за споделяне на видео в целия свят.</description>
-    <description lang="cs_CZ">YouTube je jedna z největších webových stránek světa sdílející video.</description>
-    <description lang="da_DK">YouTube er et af verdens største videodelingswebsteder.</description>
-    <description lang="de_DE">YouTube ist eines der größten Video-Sharing-Websites der Welt.</description>
-    <description lang="el_GR">Το YouTube είναι μία από τις μεγαλύτερες ιστοσελίδες διαμοιρασμού βίντεο στον κόσμο.</description>
     <description lang="en_GB">YouTube is one of the biggest video-sharing websites of the world.</description>
-    <description lang="es_ES">YouTube es uno de los sitios web más grande del mundo para compartir vídeos.</description>
-    <description lang="es_MX">YouTube es uno de los más grandes sitios web de intercambio de videos del mundo.</description>
-    <description lang="fi_FI">YouTube on yksi maailman suurimmista videoiden jakosivustoista.</description>
-    <description lang="fr_FR">YouTube est l'un des plus grands sites de partage vidéos du monde.</description>
-    <description lang="he_IL">YouTube הוא אחד מאתרי שיתוף הווידאו הגדולים בעולם.</description>
-    <description lang="hr_HR">YouTube je jedna od najvećih stranica za dijeljenje video sadržaja na svijetu.</description>
-    <description lang="hu_HU">A YouTube világ egyik legnagyobb videómegosztó weboldala.</description>
-    <description lang="it_IT">YouTube è uno dei più grandi siti web di condivisione video del mondo.</description>
-    <description lang="ko_KR">유튜브는 세상에서 가장 큰 동영상 공유 사이트 중의 하나입니다.</description>
-    <description lang="nb_NO">YouTube er en av verdens største nettsider for videodeling.</description>
-    <description lang="nl_NL">YouTube is een van de grootste videodelenwebsite in de hele wereld.</description>
-    <description lang="pl_PL">YouTube jest jednym z największych na świecie serwisów udostępniania wideo.</description>
-    <description lang="ru_RU">YouTube - популярнейший видеохостинговый сайт, предоставляющий пользователям услуги хранения, доставки и показа видео.</description>
-    <description lang="sk_SK">YouTube je jednou z najväčších stránok na zdieľanie videa na svete.</description>
-    <description lang="tr_TR">YouTube, dünya üzerindeki en büyük video paylaşma platformlarından birisidir.</description>
     <description lang="vi_VN">YouTube là một trong những trang web chia sẻ video lớn nhất trên thế giới.</description>
-    <description lang="zh_CN">油管是世界上最大的视频分享网站之一。</description>
-    <description lang="zh_TW">Youtube 是全世界最大的影片分享網站。</description>
-    <disclaimer lang="cs_CZ">Tento plugin není schválen společností Google</disclaimer>
-    <disclaimer lang="da_DK">Dette plugin er ikke godkendt af Google</disclaimer>
-    <disclaimer lang="de_DE">Dieses Plugin ist nicht von Google befürwortet</disclaimer>
-    <disclaimer lang="el_GR">Η παρούσα μικροεφαρμογή δεν έχει υϊοθετηθεί από την Google</disclaimer>
     <disclaimer lang="en_GB">This plugin is not endorsed by Google</disclaimer>
-    <disclaimer lang="es_ES">Este add-on no está respaldado por Google</disclaimer>
-    <disclaimer lang="es_MX">Este complemento no está respaldado por Google</disclaimer>
-    <disclaimer lang="fi_FI">Google ei tue tätä lisäosaa</disclaimer>
-    <disclaimer lang="fr_FR">Ce module n'est pas validé par Google</disclaimer>
-    <disclaimer lang="hr_HR">Ovaj dodatak nije podržan od strane Googlea</disclaimer>
-    <disclaimer lang="it_IT">Questo plugin non è approvato da Google</disclaimer>
-    <disclaimer lang="ko_KR">이 플러그인은 Google의 허가를 받지 않았습니다</disclaimer>
-    <disclaimer lang="nl_NL">Deze plug-in wordt niet door Google ondersteund</disclaimer>
-    <disclaimer lang="pl_PL">Ta wtyczka nie jest zatwierdzona przez Google</disclaimer>
-    <disclaimer lang="ru_RU">Плагин не поддерживается Google</disclaimer>
-    <disclaimer lang="sk_SK">Tento doplnok nie je schválený spoločnosťou Google</disclaimer>
-    <disclaimer lang="tr_TR">Bu eklenti Google tarafından üretilmemiştir</disclaimer>
     <disclaimer lang="vi_VN">Plugin này không được xác nhận bởi Google</disclaimer>
-    <disclaimer lang="zh_CN">此插件未被谷歌认可</disclaimer>
-    <disclaimer lang="zh_TW">此附加元件未由Google支持</disclaimer>
-  </extension>
+</extension>
 </addon>
 
 
@@ -358,15 +281,9 @@ Vui lòng check update thường xuyên để cập nhật bản fix lỗi
             <fanart>fanart.jpg</fanart>
             <screenshot>resources/screenshot-01.jpg</screenshot>
             </assets>
-        <news>1.1.63[CR]- Improved extended now playing[CR]- Improved OSD code[CR]- Improved overall experience[CR]- Fixed issues[CR][CR]1.1.62[CR]- Fixed issues with clearlogo and pvr osd[CR]- Added option for is playing indicator[CR]- Added option to use embuary helper for blur[CR]- Improved view 520[CR]- Minor adjustments[CR][CR]1.1.61[CR]- Improved container types[CR]- Improved widget information for episodes[CR]- Added indicators to featured home menu layout[CR]- Added additional music flags[CR]- Code improvements, cleanup[CR][CR]1.1.60[CR]- Improved overall experience[CR]- Fixed issues[CR]- Added EDL markers[CR]- Improved code, cleanup[CR]- Added option to ignore embedded fanart by addons (!thx Nanomani)[CR][CR]1.1.59[CR]- Added auto playing trailers[CR]- Improved home menu widgets movement[CR]- Added jumpbar to views 510, 521, 522, 523, 527[CR]- Fixed issues[CR][CR]1.1.58[CR]- Added glow/zoom option for focused items[CR]- Added new view 527[CR]- Improvements to home header (!thx Nanomani)[CR]- Fixed issues[CR][CR]1.1.57[CR]- Fixed issues[CR]- Minor improvements (!thx Nanomani)[CR][CR]1.1.56[CR]- Improvements to music osd[CR]- Improved overall usability/user experience[CR]- Updated translations[CR]- Improvements to colorpicker window, video osd and animations[CR]- Addon icon updated[CR]- Added option to flix views to disable netflix fanart window[CR]- Litebox script is now used for effects like blur, twotone or pixelate[CR]- Improved addon description and summary[CR]- Issues fixed, code cleanup[CR][CR]1.1.55[CR]- Addon infos changed[CR]- First start options set[CR][CR]1.1.54[CR]- Improvements to nowplaying info[CR]- First start options set[CR]- Music visualisation improved[CR]- Rearranged power menu items[CR]- Code improvements, cleanup[CR]- Texture update[CR][CR]1.1.53[CR]- French language update (!thx Nanomani)[CR]- Core/LibreElec settings rework (!thx Nanomani)[CR]- Improved animations[CR]- Background issues fixed[CR]- Improved nowplaying/musicvisualisation/musicosd[CR]- Improved skin settings[CR]- German language update[CR]- Code improvements, cleanup[CR][CR]1.1.52[CR]- Fixed a lot of issues[CR]- Improved performance[CR]- Language strings corrections[CR]- Improved DialogInfo animations[CR]- Added option to enable lock of skin theme/color/font[CR]- Texture update[CR]- Code cleanup[CR][CR]1.1.51[CR]- Rework on skin settings (!thx Nanomani)[CR]- Added support for colorbox script[CR]- Fixed a lot of issues[CR]- Minor adjustments[CR]- Code improvements[CR]- Added coreelec/libreelec icons (!thx Nanomani)[CR]- Fixed clearlogo position (!thx Fabricio Augusto)[CR]- Added wip option to lock skin theme/color[CR]- Added m4a icons[CR][CR]1.1.50[CR]- Fixed issues with language strings (!thx Nanomani)[CR]- Fixed issue with background[CR]- Added option to hide scrollbar for more views (!thx Fabricio Augusto)[CR]- Added option for underline items in vertical multi widgets home menu (!thx Nanomani)[CR][CR]1.1.49[CR]- Texture update[CR]- Improved netflix preview window[CR][CR]1.1.48[CR]- Fixed issue with background[CR]- Minor adjustments[CR]- Code optimization[CR][CR]1.1.47[CR]-Improved widget animations for netflix and clean/minimal layouts[CR]- Fixed an issue with weather background[CR]- Added playdisc shortcut to home menu[CR]- Added audiostreams info to furniture icons[CR]- Code optimization[CR][CR]1.1.46[CR]- Added new home menu layout[CR]- Fixed issue with background[CR]- Fixed issue with language strings (!thx Nanomani)[CR]- French language update (!thx Nanomani)[CR][CR]1.1.45[CR]- Fixed issue with background (!thx Skyla)[CR][CR]1.1.44[CR]- Added brightness setting for background/blur[CR]- Improved some skin settings[CR]- Added fading time setting for background[CR]- Added option to use thumbnail instead fanart in upnext addon[CR]- Added new viewtypes for widgets[CR]- Fixed issues[CR]- Added view 526 for seasons[CR]- German, italian language update (!thx semool, nanomani)[CR][CR]1.1.43[CR]- Added new viewtype aspect for home menu widgets[CR]- Fixed a lot of issues, e.g. musicvideos flags, strings, ...[CR]- Code improvements[CR]- Minor adjustments[CR][CR]1.1.42[CR]- Added new default mpaa flags[CR]- Improvements to DialogAddonInfo[CR]- Italian language updated (!thx Zurg)[CR]- Added option to enable IMDB position[CR]- Added view 524 for seasons[CR]- Improved views content type (!thx Nanomani)[CR]- Fixed minor issue with background[CR]- Added option to hide background of PVR channel icon[CR]- Improved colorpicker dialog[CR]- French language update (!thx Nanomani)[CR]- Added support for artwork downloader in DialogVideoInfo[CR][CR]1.1.41[CR]- Consistency update[CR]- Performance improvements[CR]- Added netflix clearlogo to netflix homemenu viewtypes[CR]- Italian language update (!thx Zurg)[CR]- German language update (!thx semool)[CR]- Fixed a lot of issues[CR]- Improvements to some views[CR]- Code cleanup[CR]- French language update (!thx Nanomani)[CR]- Added option to set fallback image for music visualisation (!thx for request: hordesprime)[CR]- Improvements to DialogPlayerProcessInfo[CR]- Improvements to Video OSD[CR]- Fixed issues with PVR OSD icons[CR][CR]1.1.40[CR]- Added pvr vertical widgets[CR]- Added tagline option for DialogVideoInfo, improvements (!thx Nanomani)[CR]- Added radio channel widgets[CR]- Cleanup the code[CR]- Added option to enable smaller icons in view 510[CR]- Changed list type option to select list type for each widget[CR]- Updated french language[CR]- Updated italian language strings (!thx Zurg)[CR][CR]1.1.39[CR]- Code improvements[CR]- Minor adjustments[CR][CR]1.1.38[CR]- Improved Skinshortcuts menu[CR]- French language updated[CR]- German language updated (!thx semool)[CR]- Fixed issues in PVR section[CR]- Cleanup the code[CR][CR]1.1.37[CR]- Added widgets content[CR]- Issues fixed[CR]- French language updated[CR]- Autoscroll widgets improvements[CR][CR]1.1.36[CR]- Fixed issue with more-item[CR][CR]1.1.35[CR]- Skin settings and viewtype options improvements[CR]- Minor adjustments[CR]- Fixed navigation issues[CR]- New screenshots added[CR]- French language updated[CR][CR]1.1.34[CR]- French language updated (!thx Nanomani)[CR]- Added support for script.arctic.zephyr.mod.autocolors (!thx semool)[CR]- Added music view 523[CR]- Texture improvements[CR][CR]1.1.33[CR]- Bugfix release[CR][CR]1.1.32[CR]- Code improvements, cleanup[CR]- Added new watched flag indicators[CR]- Language strings updates (!thx semool, Dis90)[CR]- Added by director info to dialogvideoinfo[CR]- Minor adjustments[CR][CR]1.1.31[CR]- Improvements of music OSD[CR]- Added option to disable homemenu items in skinshortcuts[CR]- Fixed issues[CR]- Added new views 521/522[CR]- Hungarian language updated (!thx frodo19)[CR][CR]1.1.30[CR]- Removed unneeded textures[CR]- Code cleanup[CR]- Improved custom blur settings[CR]- Added option for autoscroll widget titles[CR]- Fixed issues[CR]- Minor adjustments[CR][CR]1.1.29[CR]- Improved widget diffuse textures[CR]- Removed unneeded textures[CR]- Added option to disable startup window[CR]- Fixed issues[CR]- Added tvshow provider icons to extended infos[CR]- Code cleanup[CR][CR]1.1.28[CR]- Fixed issues with multi backgrounds and background playlists[CR][CR]1.1.27[CR]- Background code improvements[CR]- Added trakt - add to watchlist button[CR]- Code improvements[CR]- fixed issues (!thx)[CR]- minor adjustements[CR][CR]1.1.26[CR]- Fixed a lot of issues[CR]- Added now playing setting[CR]- Code improvements[CR]- Views adjusted for better consistency[CR][CR]1.1.25[CR]- Fixed weather issue[CR][CR]1.1.24[CR]- Added indicator setting[CR]- Fixed playback issue (!thx)[CR]- Code improvements, cleanup[CR]- Added tmdbhelper fallback labels[CR]- Added setting to diable next aired info[CR][CR]1.1.23[CR]- Code improvements, cleanup[CR]- Fixed a lot of issues[CR]- Added option for widgets fade animation [CR]- Added discart for osd [CR]- Added new HDR, DolbyVision and web-dl flags[CR]- Added option to set spotlight widget path[CR]- Added autoscroll for classic widgets[CR]- Enabled extended infos for episodes[CR][CR]1.1.22[CR]- Improvements on plot overlays[CR]- Code and texture improvements, cleanup[CR]- Language strings updated by several contributors, thx![CR][CR]1.1.21[CR]- Code improvements, cleanup[CR]- ColorPicker dialog improvements[CR]- DialogSelect using poster instead icon, if available[CR]- Scrollbar improvements[CR]- Texture improvements[CR]- Option to select media flags added[CR]- Added homemenu viewtype selector[CR]- Minor adjustments of now playing[CR]- Fixed a lot of issues[CR]- Ultra HD Blu Ray icon added[CR]- Language strings updated by several contributors, thx![CR]- Addon is renamed to Arctic: Zephyr - Reloaded[CR]- Added option to hide all indicators[CR]- Added widget 6[CR]- Added custom powermenu[CR][CR]1.1.20[CR]- Added netflix homemenu layout[CR]- Added custom widgets[CR][CR]1.1.19[CR]- Fixed issues, code cleanup[CR]- Improvements on animations[CR]- Added custom coreelec settings[CR][CR]1.1.18[CR]- Code improvements[CR]- Fixed issues[CR][CR]1.1.17[CR]- Improvements on dialoginfo overlay[CR]- Fixed issue with sets info[CR]- Added support for script.skin.info.service[CR][CR]1.1.16[CR]- Widgets cleanup, improvements on supported addons section[CR][CR]1.1.15[CR]- Fixed a lot of issues, cleaned up the code[CR]- Cinema experience support of embuary.helper addon added[CR]- Widgets added[CR]- Now playing info added[CR]- Dialog settings added[CR]- Fixed rating flags[CR]- Improvements on osd/homemenu/views[CR][CR]1.1.14[CR]- Fixed issues[CR][CR]1.1.13[CR]- Texture improvements[CR]- Fixed a lot of issues[CR]- Rework on filemanager[CR]- Added tempo function[CR]- Added new kodi 19 infolabels[CR]- Added german telecast offers support[CR]- Code improvements[CR][CR]1.1.12[CR]- Cleanup the code[CR]- Only icons version added to vertical multi widget homemenu[CR]- Added header label for hubs[CR]- Improvements on color-settings, blur settings[CR]- Switched to tmdbhelper for next aired info[CR]- More changes for matrix compatibility[CR][CR]1.1.1[CR]- First matrix version</news>
         <summary lang="en">Clean, minimal, elegant, simple, light. Based on the original Arctic: Zephyr skin by jurialmunkey.</summary>
-        <summary lang="en_AU">Clean, minimal, elegant, simple, light. Based on the original Arctic: Zephyr skin by jurialmunkey.</summary>
-        <summary lang="en_US">Clean, minimal, elegant, simple, light. Based on the original Arctic: Zephyr skin by jurialmunkey.</summary>
-     
         <description lang="en">Arctic: Zephyr - Reloaded is based on original Arctic: Zephyr skin, created by jurialmunkey. Arctic focuses on being simple, clean and minimalistic with a light spin.</description>
-        <description lang="en_AU">Arctic: Zephyr - Reloaded is based on original Arctic: Zephyr skin, created by jurialmunkey. Arctic focuses on being simple, clean and minimalistic with a light spin.</description>
-        <description lang="en_US">Arctic: Zephyr - Reloaded is based on original Arctic: Zephyr skin, created by jurialmunkey. Arctic focuses on being simple, clean and minimalistic with a light spin.</description>
-    </extension>
+        </extension>
 </addon>
 
 <addon id="service.subtitles.a4ksubtitles"
