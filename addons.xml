@@ -789,12 +789,7 @@ Supports: OpenSubtitles, BSPlayer, Podnadpisi.NET, Subscene, Addic7ed
         https://t.me/acestream_spanish</forum>
     </extension>
 </addon>	
-<addon
-	id="service.languagepreferencemanager.vn"
-	name="Language Preference Manager"
-	version="0.1.6"
-	provider-name="ace20022/scott967/rockrider69"
-	>
+<addon id="service.languagepreferencemanager.vn" name="Language Preference Manager" version="0.1.6" provider-name="ace20022/scott967/rockrider69">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 	</requires>
@@ -811,7 +806,6 @@ Supports: OpenSubtitles, BSPlayer, Podnadpisi.NET, Subscene, Addic7ed
 			<icon>resources/icon.png</icon>
 		</assets>
 	</extension>
-
 </addon>
 
 <addon id="service.subtitles.sub19plus" name="Sub19Plus" version="0.0.1" provider-name="mkendo">
@@ -837,11 +831,7 @@ MoMo/TP Bank: 0979412210
 </extension>
 </addon>
 
-	
-<addon id="service.subtitles.subscenenice"
-       name="Subscene 2022"
-       version="1.0.0.3"
-       provider-name="NICE">
+<addon id="service.subtitles.subscenenice" name="Subscene 2022" version="1.0.0.3" provider-name="NICE">
     <requires>
         <!-- <import addon="xbmc.python" version="3.0.0"/> -->
         <import addon="script.module.six" />
