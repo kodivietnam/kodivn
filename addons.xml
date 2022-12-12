@@ -648,7 +648,7 @@ Supports: OpenSubtitles, BSPlayer, Podnadpisi.NET, Subscene, Addic7ed
         <platform>all</platform>
     </extension>
 </addon>		
-<addon id="repository.vmfmatrix" name="VietMedia Matrix Repo" version="1.0.2" provider-name="VietMediaMatrix">
+<addon id="repository.vmfmatrix" name="Repo VMF Matrix" version="1.0.2" provider-name="VietMediaMatrix">
 	<extension point="xbmc.addon.repository" name="VietMedia Matrix Add-on Repository">
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/nguyenducmanh609/kodivn/master/addons.xml</info>
@@ -663,6 +663,7 @@ Supports: OpenSubtitles, BSPlayer, Podnadpisi.NET, Subscene, Addic7ed
 		<assets><icon>icon.png</icon></assets>
 	</extension>
 </addon>
+
 <addon id="script.module.pyqrcode" version="1.2.1.4" name="pyQRcode" provider-name="Michael Nooner">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
