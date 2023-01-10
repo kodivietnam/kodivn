@@ -25,7 +25,7 @@
 </addon>
 
 
-<addon id="plugin.video.vnmedia" name="VN Media" version="1.7.9" provider-name="mkendo">
+<addon id="plugin.video.vnmedia" name="VN Media" version="1.8.0" provider-name="mkendo">
 <requires>
   <import addon="xbmc.python" version="3.0.0"/>
   <import addon="script.module.codequick"/>
@@ -226,7 +226,7 @@ VNM không kiểm soát cũng như không chịu trách nhiệm về nội dung 
 	</extension>
 </addon>
 	
-<addon id="plugin.video.youtube" name="YouTube" version="6.8.22.1" provider-name="anxdpanic, bromix">
+<addon id="plugin.video.youtube" name="YouTube" version="6.8.24.1" provider-name="anxdpanic, bromix">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.six" version="1.11.0"/>
