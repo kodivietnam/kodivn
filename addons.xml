@@ -72,12 +72,12 @@ VNM không kiểm soát cũng như không chịu trách nhiệm về nội dung 
     </extension>
 </addon>	
 	
-<addon id="plugin.program.autocompletion" name="AutoCompletion for virtual keyboard" version="2.0.5" provider-name="Philipp Temminghoff (phil65), sualfred, xulek, finkleandeinhorn">
+<addon id="plugin.program.autocompletion" name="AutoCompletion for virtual keyboard" version="2.1.2" provider-name="Philipp Temminghoff (phil65), sualfred, xulek, finkleandeinhorn">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
-        <import addon="script.module.autocompletion" version="2.0.3"/>
+        <import addon="script.module.autocompletion" version="2.0.5"/>
     </requires>
-    <extension point="xbmc.python.script"       library="default.py">
+    <extension point="xbmc.python.script" library="default.py">
         <provides>executable</provides>
     </extension>
     <extension point="xbmc.python.pluginsource" library="plugin.py" />
@@ -89,7 +89,7 @@ VNM không kiểm soát cũng như không chịu trách nhiệm về nội dung 
         <description lang="es_ES">Autocompletar para el teclado virtual (necesita soporte de skin)</description>
         <platform>all</platform>
         <license>GPL-2.0-or-later</license>
-        <source>https://www.github.com/finkleandeinhorn/plugin.program.autocompletion</source>
+        <source>https://github.com/finkleandeinhorn/plugin.program.autocompletion</source>
         <assets>
             <icon>resources/icon.png</icon>
             <screenshot>resources/screenshot-01.jpg</screenshot>
