@@ -1000,7 +1000,7 @@ You can clone the project and host it in your own server.
 	</extension>
 </addon>
 
-<addon id="script.module.clouddrive.common" name="Cloud Drive Common Module" version="1.3.9.2" provider-name="Carlos Guzman (cguZZman)">
+<addon id="script.module.clouddrive.common" name="Cloud Drive Common Module" version="1.3.10.1" provider-name="Carlos Guzman (cguZZman)">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="script.module.dateutil"/>
@@ -1021,8 +1021,8 @@ You can clone the project and host it in your own server.
 			<icon>icon.png</icon>
 		</assets>
 		<news>
-v1.3.9.2 13/1/2023:
-- Export improvements
+v1.3.10.1 released 13/1/2023:
+- Add convert method from binary to string 
 		</news>
 		<disclaimer lang="en_GB">
 This cloud drive addon uses a third-party authentication mechanism commonly known as OAuth 2.0.
