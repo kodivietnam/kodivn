@@ -1101,5 +1101,22 @@ You can clone the project and host it in your own server.
   </extension>
 </addon>
 	
-	
+<addon id="script.module.chardet" name="chardet" version="4.0.0.1" provider-name="Character Encoding Detector">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <reuselanguageinvoker>true</reuselanguageinvoker>
+    <summary lang="en_GB">The Universal Character Encoding Detector</summary>
+    <description lang="en_GB">The Universal Character Encoding Detector</description>
+    <license>LGPL-2.1</license>
+    <platform>all</platform>
+    <website>https://chardet.readthedocs.io/en/latest/</website>
+    <source>https://github.com/chardet/chardet</source>
+    <assets>
+      <icon>resources/icon.png</icon>
+    </assets>
+  </extension>
+</addon>	
 </addons>
