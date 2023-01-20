@@ -813,7 +813,7 @@ Nhằm tối ưu trải nghiệm của người dùng
     </extension>
 </addon>
 
-<addon id="script.module.codequick" name="CodeQuick" provider-name="willforde" version="1.0.2.2">
+<addon id="script.module.codequick" name="CodeQuick" provider-name="willforde" version="1.0.2.3">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.youtube.dl" />
