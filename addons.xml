@@ -1038,5 +1038,26 @@ You can clone the project and host it in your own server.
     </extension>
 </addon>
 
-
+<addon id="script.module.requests" name="requests" version="2.27.1.1" provider-name="Python Software Foundation">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.certifi" />
+    <import addon="script.module.chardet" />
+    <import addon="script.module.idna" />
+    <import addon="script.module.urllib3" />
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <reuselanguageinvoker>true</reuselanguageinvoker>
+    <summary lang="en_GB">Requests is an elegant and simple HTTP library for Python, built for human beings.</summary>
+    <description lang="en_GB">Requests is an elegant and simple HTTP library for Python, built for human beings.</description>
+    <license>Apache-2.0</license>
+    <platform>all</platform>
+    <website>https://requests.readthedocs.io/</website>
+    <source>https://github.com/psf/requests</source>
+    <assets>
+      <icon>resources/icon.png</icon>
+    </assets>
+  </extension>
+</addon>
 </addons>
