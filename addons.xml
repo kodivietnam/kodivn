@@ -1081,5 +1081,25 @@ You can clone the project and host it in your own server.
   </extension>
 </addon>	
 	
+<addon id="script.module.beautifulsoup4" name="BeautifulSoup4" version="4.9.3.1" provider-name="Leonard Richardson (leonardr@segfault.org)">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.soupsieve" />
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <reuselanguageinvoker>true</reuselanguageinvoker>
+    <summary lang="en_GB">Screen-scraping library</summary>
+    <description lang="en_GB">Beautiful Soup is a library that makes it easy to scrape information from web pages. It sits atop an HTML or XML parser, providing Pythonic idioms for iterating, searching, and modifying the parse tree.</description>
+    <license>MIT</license>
+    <platform>all</platform>
+    <website>https://www.crummy.com/software/BeautifulSoup/</website>
+	<source>https://code.launchpad.net/beautifulsoup</source>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+	
 	
 </addons>
