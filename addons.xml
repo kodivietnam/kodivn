@@ -226,7 +226,7 @@ VNM không kiểm soát cũng như không chịu trách nhiệm về nội dung 
 	</extension>
 </addon>
 	
-<addon id="plugin.video.youtube" name="YouTube" version="6.8.24.2" provider-name="anxdpanic, bromix">
+<addon id="plugin.video.youtube" name="YouTube" version="6.8.24.3" provider-name="anxdpanic, bromix">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.six" />
@@ -245,10 +245,15 @@ VNM không kiểm soát cũng như không chịu trách nhiệm về nội dung 
     </assets>
     <platform>all</platform>
     <license>GPL-2.0-only</license>
+    <forum>https://ytaddon.panicked.xyz/forum</forum>
+    <website>https://www.youtube.com</website>
     <source>https://github.com/anxdpanic/plugin.video.youtube</source>
     <reuselanguageinvoker>true</reuselanguageinvoker>
+	<summary lang="en_GB">Plugin for YouTube</summary>
     <summary lang="vi_VN">Plugin dành cho YouTube</summary>
+	<description lang="en_GB">YouTube is one of the biggest video-sharing websites of the world.</description>
     <description lang="vi_VN">YouTube là một trong những trang web chia sẻ video lớn nhất trên thế giới.</description>
+	<disclaimer lang="en_GB">This plugin is not endorsed by Google</disclaimer>
     <disclaimer lang="vi_VN">Plugin này không được xác nhận bởi Google</disclaimer>
   </extension>
 </addon>
