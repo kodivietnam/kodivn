@@ -1201,5 +1201,21 @@ You can clone the project and host it in your own server.
     </assets>
   </extension>
 </addon>
-	
+
+<addon id="script.module.htmlement" name="HTMLement" provider-name="willforde" version="1.0.0.1">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.python.module" library="lib"/>
+    <extension point="xbmc.addon.metadata">
+	    <reuselanguageinvoker>true</reuselanguageinvoker>
+        <summary lang="en_GB">Pure-Python HTML parser with ElementTree support.</summary>
+        <description lang="en_GB">Parses HTML using HTMLParser to build a tree of Elements. Utilizing ElementTree support for XPath expression to parse the tree.</description>
+        <source>https://github.com/willforde/python-htmlement</source>
+        <license>MIT</license>
+        <assets>
+            <icon>resources/icon.png</icon>
+        </assets>
+    </extension>
+</addon>
 </addons>
