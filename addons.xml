@@ -1218,4 +1218,27 @@ You can clone the project and host it in your own server.
         </assets>
     </extension>
 </addon>
+	
+<addon id="script.module.youtube.dl" name="youtube-dl Control" version="21.303.0.1" provider-name="ytdl-org,ruuk,sy6sy2,wwark">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.addon.signals" />
+        <import addon="script.module.kodi-six" />
+    </requires>
+    <extension point="xbmc.python.script" library="control.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+	    <reuselanguageinvoker>true</reuselanguageinvoker>
+        <platform>all</platform>
+        <summary lang="en_GB">Module providing access to youtube-dl video stream extraction</summary>
+        <description lang="en_GB">Module providing access to youtube-dl video stream extraction for hundreds of sites. Version is based on youtube-dl date version: YY.MDD.V where V is the addon specific sub-version. Also provides downloading with the option for background downloading with a queue and queue manager.</description>
+        <license>LGPL-2.1-only</license>
+        <source>https://github.com/Catch-up-TV-and-More/script.module.youtube.dl</source>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
 </addons>
