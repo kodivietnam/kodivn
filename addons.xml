@@ -1079,7 +1079,7 @@ You can clone the project and host it in your own server.
   </extension>
 </addon>	
 	
-<addon id="script.module.beautifulsoup4" name="BeautifulSoup4" version="4.9.3.1" provider-name="Leonard Richardson (leonardr@segfault.org)">
+<addon id="script.module.beautifulsoup4" name="BeautifulSoup4" version="4.11.1" provider-name="Leonard Richardson (leonardr@segfault.org)">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.soupsieve" />
