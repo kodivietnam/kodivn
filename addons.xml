@@ -1198,7 +1198,7 @@ You can clone the project and host it in your own server.
   </extension>
 </addon>
 
-<addon id="script.module.htmlement" name="HTMLement" provider-name="willforde" version="1.0.0.1">
+<addon id="script.module.htmlement" name="HTMLement" provider-name="willforde" version="1.1.0">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
     </requires>
