@@ -1012,7 +1012,7 @@ You can clone the project and host it in your own server.
 	</extension>
 </addon>
 
-<addon id="script.tubecast" name="TubeCast" version="1.5.0.1" provider-name="enen92">
+<addon id="script.tubecast" name="TubeCast" version="1.5.1" provider-name="enen92">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.bottle" />
