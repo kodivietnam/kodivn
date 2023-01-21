@@ -1215,7 +1215,7 @@ You can clone the project and host it in your own server.
     </extension>
 </addon>
 	
-<addon id="script.module.youtube.dl" name="youtube-dl Control" version="21.303.0.1" provider-name="ytdl-org,ruuk,sy6sy2,wwark">
+<addon id="script.module.youtube.dl" name="youtube-dl Control" version="21.304.0" provider-name="ytdl-org,ruuk,sy6sy2,wwark">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.addon.signals" />
