@@ -1118,7 +1118,7 @@ You can clone the project and host it in your own server.
   </extension>
 	</addon>
 	
-<addon id="script.module.soupsieve" name="Soup Sieve" version="2.1.0.1" provider-name="Isaac Muse">
+<addon id="script.module.soupsieve" name="Soup Sieve" version="2.2.0" provider-name="Isaac Muse">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 	</requires>
