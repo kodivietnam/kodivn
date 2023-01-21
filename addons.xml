@@ -861,7 +861,7 @@ Nhằm tối ưu trải nghiệm của người dùng
     </extension>
 </addon>
 	
-<addon id="plugin.video.elementum" name="Elementum" version="0.1.86.1" provider-name="elgatito">
+<addon id="plugin.video.elementum" name="Elementum" version="0.1.87" provider-name="elgatito">
     <requires>
         <import addon="xbmc.addon" version="16.0.0" />
         <import addon="repository.elementum" optional="true" />
@@ -875,8 +875,7 @@ Nhằm tối ưu trải nghiệm của người dùng
     <extension point="xbmc.python.module" library="resources/site-packages" />
     <extension point="xbmc.subtitle.module" library="navigation.py" />
     <extension point="xbmc.addon.metadata">
-	    <reuselanguageinvoker>true</reuselanguageinvoker>
-        <summary lang="en">Elementum: Media streaming</summary>
+	<summary lang="en">Elementum: Media streaming</summary>
         <description lang="en">Elementum is a torrent finding and streaming engine. It doesn't go on torrent websites for legal reasons. However, it calls specially crafted add-ons (called providers) that are installed separately.[CR]This project is a fork of the well known, but no longer maintained Pulsar/Quasar projects from steeve and scakemyer.</description>
         <disclaimer lang="en">The author does not own or host any content found within this Addon. The author is not connected to or in any other way affiliated with Kodi, Team Kodi, or the XBMC Foundation.</disclaimer>
         <language>en</language>
