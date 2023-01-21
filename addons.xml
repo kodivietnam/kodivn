@@ -1238,7 +1238,7 @@ You can clone the project and host it in your own server.
     </extension>
 </addon>
 	
-<addon id="script.module.six" name="six" version="1.15.0.1" provider-name="gutworth">
+<addon id="script.module.six" name="six" version="1.16.0" provider-name="gutworth">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
   </requires>
