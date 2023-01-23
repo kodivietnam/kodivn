@@ -709,7 +709,7 @@ Supports: OpenSubtitles, BSPlayer, Podnadpisi.NET, Subscene, Addic7ed
     </extension>
 </addon>	
 
-<addon id="service.languagepreferencemanager.vn" name="Language Preference Manager" version="0.1.6.1" provider-name="ace20022/scott967/rockrider69">
+<addon id="service.languagepreferencemanager.vn" name="Language Preference Manager" version="1.0.1" provider-name="ace20022/scott967/rockrider69">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 	</requires>
