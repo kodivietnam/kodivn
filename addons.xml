@@ -1037,7 +1037,7 @@ You can clone the project and host it in your own server.
     </extension>
 </addon>
 
-<addon id="script.module.requests" name="requests" version="2.28.1" provider-name="Python Software Foundation">
+<addon id="script.module.requests" name="requests" version="2.28.2" provider-name="Python Software Foundation">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.certifi" />
