@@ -142,7 +142,8 @@
             <fanart>fanart.jpg</fanart>
         </assets>
     </extension>
-</addon>	
+</addon>
+	
 <addon id="plugin.program.fastskin" name="Skin Fast" version="0.0.1" provider-name="primaeval, mkendo">
     <extension point="xbmc.python.pluginsource" library="addon.py">
             <provides>executable</provides>
@@ -1060,7 +1061,7 @@ You can clone the project and host it in your own server.
 </addon>
 	
 	
-<addon id="script.module.urllib3" name="urllib3" version="1.27.0" provider-name="urllib3">
+<addon id="script.module.urllib3" name="urllib3" version="1.27.1" provider-name="urllib3">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
   </requires>
