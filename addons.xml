@@ -1243,6 +1243,7 @@ You can clone the project and host it in your own server.
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.requests" />
+    <import addon="script.module.requests_toolbelt" />
   </requires>
   <extension point="xbmc.python.module" library="lib" />
   <extension point="xbmc.python.pluginsource" library="lib" />
@@ -1251,7 +1252,7 @@ You can clone the project and host it in your own server.
     <summary lang="en_gb">cloudscraper</summary>
     <description lang="en_gb">cloudscraper</description>
     <disclaimer lang="en_gb"></disclaimer>
-    <platform>all</platform>
+	<platform>all</platform>
 	<assets>
       <icon>resources/icon.png</icon>
     </assets>
