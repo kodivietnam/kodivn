@@ -1258,4 +1258,20 @@ You can clone the project and host it in your own server.
     </assets>
   </extension>
 </addon>
+	
+<addon id="script.module.requests_toolbelt" name="requests_toolbelt" version="0.10.1" provider-name="mkendo">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.python.pluginsource" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <reuselanguageinvoker>true</reuselanguageinvoker>
+    <summary lang="en_gb">requests_toolbelt</summary>
+    <description lang="en_gb">requests_toolbelt</description>
+    <disclaimer lang="en_gb"></disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 </addons>
