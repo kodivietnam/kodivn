@@ -96,7 +96,7 @@
     </extension>
 </addon>
 	
-<addon id="plugin.program.hieuitmc" name="[COLOR red][B]HieuITMC[/B][/COLOR] [COLOR yellow][B]Matrix[/B][/COLOR]" version="3.1.3" provider-name="HieuIT">
+<addon id="plugin.program.hieuitmc" name="[COLOR red][B]HieuITMC[/B][/COLOR] [COLOR yellow][B]Matrix[/B][/COLOR]" version="3.1.4" provider-name="HieuIT">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.requests" />
