@@ -1387,5 +1387,30 @@ You can clone the project and host it in your own server.
   </extension>
 </addon>
 	
+<addon id="script.module.requests_cache" name="requests-cache" version="0.9.8" provider-name="mkendo">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+	<import addon="script.module.appdirs"/>
+	<import addon="script.module.attrs"/>
+	<import addon="script.module.cattrs"/>
+	<import addon="script.module.requests"/>
+	<import addon="script.module.url-normalize"/>
+	<import addon="script.module.urllib3"/>
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.python.pluginsource" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_gb">requests-cache</summary>
+    <description lang="en_gb">requests-cache</description>
+    <disclaimer lang="en_gb"></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license></license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+  </extension>
+</addon>
 	
 </addons>
