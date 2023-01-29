@@ -1266,6 +1266,7 @@ You can clone the project and host it in your own server.
 <addon id="script.module.requests-toolbelt" name="Requests Toolbelt" version="0.10.1" provider-name="mkendo">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
+	<import addon="script.module.requests" version="2.9.2"/>
   </requires>
   <extension point="xbmc.python.module" library="lib" />
   <extension point="xbmc.python.pluginsource" library="lib" />
