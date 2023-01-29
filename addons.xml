@@ -1325,7 +1325,6 @@ You can clone the project and host it in your own server.
   </extension>
 </addon>
 	
-	
 <addon id="script.module.attrs" name="attrs" version="22.2.0" provider-name="mkendo">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
@@ -1365,6 +1364,28 @@ You can clone the project and host it in your own server.
     <email></email>
     <source></source>
   </extension>
-</addon>	
+</addon>
+	
+<addon id="script.module.url-normalize" name="url-normalize" version="1.4.3" provider-name="mkendo">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+	<import addon="script.module.six"/>
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.python.pluginsource" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_gb">url-normalize</summary>
+    <description lang="en_gb">url-normalize</description>
+    <disclaimer lang="en_gb"></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license></license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+  </extension>
+</addon>
+	
 	
 </addons>
