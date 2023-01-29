@@ -1245,6 +1245,7 @@ You can clone the project and host it in your own server.
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.requests" version="2.9.2"/>
 	<import addon="script.module.requests-toolbelt" version="0.9.1"/>
+	<import addon="script.module.pyparsing" version="2.4.7"/>
   </requires>
   <extension point="xbmc.python.module" library="lib" />
   <extension point="xbmc.python.pluginsource" library="lib" />
