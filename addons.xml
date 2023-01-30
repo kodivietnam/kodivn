@@ -1432,4 +1432,27 @@ You can clone the project and host it in your own server.
     <source></source>
   </extension>
 </addon>
+	
+<addon id="script.module.Cython" name="Cython" version="0.29.33" provider-name="mkendo">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.python.pluginsource" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_gb">Cython</summary>
+    <description lang="en_gb">Cython</description>
+    <disclaimer lang="en_gb"></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license></license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+  </extension>
+</addon>
+	
+	
+	
 </addons>
