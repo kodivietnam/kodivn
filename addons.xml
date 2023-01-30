@@ -1472,5 +1472,27 @@ You can clone the project and host it in your own server.
     <source></source>
   </extension>
 </addon>	
-	
+
+<addon id="script.module.html5lib" name="html5lib" version="1.1" provider-name="mkendo">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+	<import addon="script.module.six"/>
+	<import addon="script.module.webencodings"/>
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.python.pluginsource" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_gb">html5lib</summary>
+    <description lang="en_gb">html5lib</description>
+    <disclaimer lang="en_gb"></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license></license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+  </extension>
+</addon>
+
 </addons>
