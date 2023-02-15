@@ -24,9 +24,8 @@
         </assets>
     </extension>
 </addon>
-
-
-<addon id="plugin.video.vnmedia" name="VN Media" version="2.0.1" provider-name="mkendo">
+	
+<addon id="plugin.video.vnmedia" name="VN Media" version="2.0.2" provider-name="mkendo">
 <requires>
   <import addon="xbmc.python" version="3.0.0"/>
   <import addon="script.module.codequick"/>
@@ -54,7 +53,7 @@
     <fanart>fanart.jpg</fanart>
   </assets>
   <news>
-V2.0.1_14/2
+V2.0.2_15/2
 Nội dung được chia sẻ bởi người dùng internet.
 VNM không kiểm soát cũng như không chịu trách nhiệm về nội dung được chia sẻ.
   </news>
