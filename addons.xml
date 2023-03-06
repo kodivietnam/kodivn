@@ -25,6 +25,7 @@
     </extension>
 </addon>
 
+
 <addon id="plugin.video.vnmedia" name="VN Media" version="2.1.7" provider-name="mkendo">
 <requires>
   <import addon="xbmc.python" version="3.0.1"/>
@@ -33,27 +34,27 @@
   <import addon="script.module.cloudscraper" version="1.2.68"/>
   <import addon="script.module.inputstreamhelper" version="0.5.10" optional="true"/>
   <import addon="script.module.pyqrcode" version="1.2.1"/>
-  <import addon="inputstream.adaptive" version="20.3.2"/>
+  <import addon="inputstream.adaptive" version="20.3.1"/>
   <import addon="plugin.video.youtube" version="7.0.0" optional="true"/>
 </requires>
 <extension point="xbmc.python.pluginsource" library="mkendo.py">
-  <provides>video</provides>
+  <provides>video audio</provides>
 </extension>
 <extension point="xbmc.service" library="service.py"/>
 <extension point="xbmc.addon.metadata">
   <reuselanguageinvoker>true</reuselanguageinvoker>
-  <summary lang="vi_VN">VN Media</summary>
+  <summary lang="vi_VN">VN Media Omega</summary>
   <description lang="vi_VN">VN Media là addon được phát triển bởi cộng đồng KODI Việt Nam</description>
   <disclaimer lang="vi_VN">Nội dung được chia sẻ bởi người dùng internet, VNM không kiểm soát cũng như không chịu trách nhiệm về nội dung được chia sẻ. Khán giả đồng ý và cân nhắc nội dung khi sử dụng tài nguyên.</disclaimer>
   <platform>all</platform>
   <language>vi</language>
-  <license>GPL-2.0</license>
+  <license>GPL-2.0-or-later</license>
   <assets>
     <icon>icon.png</icon>
     <fanart>fanart.jpg</fanart>
   </assets>
   <news>
-V2.1.7_5/3
+V2.1.7_6/3 Omega
 Nội dung được chia sẻ bởi người dùng internet.
 VNM không kiểm soát cũng như không chịu trách nhiệm về nội dung được chia sẻ.
   </news>
