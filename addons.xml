@@ -38,7 +38,7 @@
   <import addon="plugin.video.youtube" version="7.0.0" optional="true"/>
 </requires>
 <extension point="xbmc.python.pluginsource" library="mkendo.py">
-  <provides>video audio</provides>
+  <provides>video</provides>
 </extension>
 <extension point="xbmc.service" library="service.py"/>
 <extension point="xbmc.addon.metadata">
