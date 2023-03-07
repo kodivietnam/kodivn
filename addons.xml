@@ -1228,7 +1228,7 @@ You can clone the project and host it in your own server.
 	</extension>
 </addon>
 	
-<addon id="script.module.inputstreamhelper" name="InputStream Helper" version="0.5.10.1" provider-name="emilsvennesson, dagwieers, mediaminister, horstle">
+<addon id="script.module.inputstreamhelper" name="InputStream Helper" version="0.5.11" provider-name="emilsvennesson, dagwieers, mediaminister, horstle">
   <requires>
     <!--py3 compliant-->
     <import addon="xbmc.python" version="3.0.1"/>
