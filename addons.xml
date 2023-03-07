@@ -1479,7 +1479,7 @@ You can clone the project and host it in your own server.
   </extension>
 </addon>	
 
-<addon id="script.module.html5lib" name="html5lib" version="1.1" provider-name="mkendo">
+<addon id="script.module.html5lib" name="html5lib" version="1.1.1" provider-name="mkendo">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
 	<import addon="script.module.six"/>
