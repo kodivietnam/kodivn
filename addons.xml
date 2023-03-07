@@ -32,10 +32,10 @@
   <import addon="script.module.codequick" version="1.0.2"/>
   <import addon="script.module.beautifulsoup4" version="4.9.3"/>
   <import addon="script.module.cloudscraper" version="1.2.68"/>
-  <import addon="script.module.inputstreamhelper" version="0.5.10" optional="true"/>
+  <import addon="script.module.inputstreamhelper" version="0.5.10"/>
   <import addon="script.module.pyqrcode" version="1.2.1"/>
   <import addon="inputstream.adaptive" version="20.3.1"/>
-  <import addon="plugin.video.youtube" version="7.0.0" optional="true"/>
+  <import addon="plugin.video.youtube" version="7.0.0"/>
 </requires>
 <extension point="xbmc.python.pluginsource" library="mkendo.py">
   <provides>video</provides>
