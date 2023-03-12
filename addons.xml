@@ -658,10 +658,9 @@ Supports: OpenSubtitles, BSPlayer, Podnadpisi.NET, Subscene, Addic7ed
 </addon>
 	
 	
-<addon id="script.module.horus" name="Horus" version="1.1.5" provider-name="Caperucitaferoz">
+<addo<addon id="script.module.horus" name="Horus" version="1.1.7" provider-name="Caperucitaferoz">
     <requires>
-	    <import addon="xbmc.python" version="3.0.0"/>
-        <import addon="script.module.six" version="1.15.0"/>
+        <import addon="script.module.six" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>executable</provides>
@@ -690,7 +689,7 @@ Supports: OpenSubtitles, BSPlayer, Podnadpisi.NET, Subscene, Addic7ed
         https://t.me/acestream_spanish</forum>
     </extension>
 </addon>
-	
+
 
 <addon id="service.languagepreferencemanager.vn" name="Language Preference Manager" version="1.0.1" provider-name="ace20022/scott967/rockrider69">
 	<requires>
