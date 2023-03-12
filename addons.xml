@@ -658,7 +658,7 @@ Supports: OpenSubtitles, BSPlayer, Podnadpisi.NET, Subscene, Addic7ed
 </addon>
 	
 	
-<addo<addon id="script.module.horus" name="Horus" version="1.1.7" provider-name="Caperucitaferoz">
+<addon id="script.module.horus" name="Horus" version="1.1.7" provider-name="Caperucitaferoz">
     <requires>
         <import addon="script.module.six" />
     </requires>
