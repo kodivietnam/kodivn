@@ -1047,7 +1047,7 @@ You can clone the project and host it in your own server.
 </addon>
 	
 	
-<addon id="script.module.urllib3" name="urllib3" version="1.27.1" provider-name="urllib3">
+<addon id="script.module.urllib3" name="urllib3" version="1.27.2" provider-name="urllib3">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
   </requires>
@@ -1063,8 +1063,11 @@ You can clone the project and host it in your own server.
     <assets>
       <icon>resources/icon.png</icon>
     </assets>
+	<news>
+	kendo update ver 1.26.15 12.3.2023
+  </news>
   </extension>
-</addon>	
+</addon>
 	
 <addon id="script.module.beautifulsoup4" name="BeautifulSoup4" version="4.11.1" provider-name="Leonard Richardson (leonardr@segfault.org)">
   <requires>
