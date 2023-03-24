@@ -733,7 +733,7 @@ Donate:
         </news>
     </extension>
 </addon>
-<addon id="plugin.Tool-KODIVN" name="[COLOR yellow][B] TOOL-KODIVN [/B][/COLOR] [COLOR yellow][B][/B][/COLOR]" version="4" provider-name="PHAPTX5">
+<addon id="plugin.Tool-KODIVN" name="[COLOR yellow][B] TOOL-KODIVN [/B][/COLOR] [COLOR yellow][B][/B][/COLOR]" version="5.0.0" provider-name="PHAPTX5">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.requests" />
