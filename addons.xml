@@ -34,7 +34,6 @@
   <import addon="script.module.inputstreamhelper"/>
   <import addon="script.module.pyqrcode"/>
   <import addon="inputstream.adaptive"/>
-  <import addon="plugin.video.youtube"/>
 </requires>
 <extension point="xbmc.python.pluginsource" library="mkendo.py">
   <provides>video</provides>
@@ -53,7 +52,7 @@
     <fanart>fanart.jpg</fanart>
   </assets>
   <news>
-V2.3.1_24/3.11.11 Omega
+V2.3.1_25/3.14.14 Omega
 Nội dung được chia sẻ bởi người dùng internet.
 VNM không kiểm soát cũng như không chịu trách nhiệm về nội dung được chia sẻ.
   </news>
