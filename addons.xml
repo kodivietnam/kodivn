@@ -766,7 +766,7 @@ Nhằm tối ưu trải nghiệm của người dùng
         <import addon="script.module.youtube.dl"/>
         <import addon="script.module.htmlement"/>
         <import addon="script.module.requests"/>
-		<import addon="plugin.video.youtube"/>
+	<import addon="plugin.video.youtube"/>
     </requires>
     <extension point="xbmc.python.module" library="lib"/>
     <extension point="xbmc.addon.metadata">
