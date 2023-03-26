@@ -760,12 +760,15 @@ Nhằm tối ưu trải nghiệm của người dùng
         </assets>
     </extension>
 </addon>
-<addon id="script.module.codequick" name="CodeQuick" provider-name="willforde, mkendo" version="1.1.4">
+	
+	
+<addon id="script.module.codequick" name="CodeQuick" provider-name="willforde, mkendo" version="1.1.5">
     <requires>
         <import addon="xbmc.python" version="3.0.1"/>
         <import addon="script.module.youtube.dl"/>
         <import addon="script.module.htmlement"/>
         <import addon="script.module.requests"/>
+		<import addon="script.module.infotagger"/>
 		<import addon="plugin.video.youtube"/>
     </requires>
     <extension point="xbmc.python.module" library="lib"/>
@@ -782,9 +785,6 @@ Nhằm tối ưu trải nghiệm của người dùng
         </assets>
     </extension>
 </addon>
-
-
-
 
 
 
