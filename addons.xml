@@ -25,7 +25,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.vnmedia" name="VN Media" version="2.3.3" provider-name="mkendo">
+<addon id="plugin.video.vnmedia" name="VN Media" version="2.3.4" provider-name="mkendo">
 <requires>
   <import addon="xbmc.python" version="3.0.1"/>
   <import addon="script.module.codequick"/>
@@ -760,7 +760,7 @@ Nhằm tối ưu trải nghiệm của người dùng
         </assets>
     </extension>
 </addon>
-<addon id="script.module.codequick" name="CodeQuick" provider-name="willforde, mkendo" version="1.1.3">
+<addon id="script.module.codequick" name="CodeQuick" provider-name="willforde, mkendo" version="1.1.4">
     <requires>
         <import addon="xbmc.python" version="3.0.1"/>
         <import addon="script.module.youtube.dl"/>
