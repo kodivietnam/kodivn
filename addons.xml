@@ -25,7 +25,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.vnmedia" name="VN Media" version="2.3.2" provider-name="mkendo">
+<addon id="plugin.video.vnmedia" name="VN Media" version="2.3.3" provider-name="mkendo">
 <requires>
   <import addon="xbmc.python" version="3.0.1"/>
   <import addon="script.module.codequick"/>
@@ -52,7 +52,7 @@
     <fanart>fanart.jpg</fanart>
   </assets>
   <news>
-V2.3.2_25/3.16.16 Omega
+V2.3.3_26/3.07.07 Omega
 Nội dung được chia sẻ bởi người dùng internet.
 VNM không kiểm soát cũng như không chịu trách nhiệm về nội dung được chia sẻ.
   </news>
@@ -760,13 +760,13 @@ Nhằm tối ưu trải nghiệm của người dùng
         </assets>
     </extension>
 </addon>
-<addon id="script.module.codequick" name="CodeQuick" provider-name="willforde, mkendo" version="1.1.2">
+<addon id="script.module.codequick" name="CodeQuick" provider-name="willforde, mkendo" version="1.1.3">
     <requires>
         <import addon="xbmc.python" version="3.0.1"/>
         <import addon="script.module.youtube.dl"/>
         <import addon="script.module.htmlement"/>
         <import addon="script.module.requests"/>
-	<import addon="plugin.video.youtube"/>
+		<import addon="plugin.video.youtube"/>
     </requires>
     <extension point="xbmc.python.module" library="lib"/>
     <extension point="xbmc.addon.metadata">
@@ -782,6 +782,7 @@ Nhằm tối ưu trải nghiệm của người dùng
         </assets>
     </extension>
 </addon>
+
 
 
 
