@@ -1,9 +1,9 @@
 <addons>
 <addon id="plugin.video.vietmediaF" name="VietmediaF" version="2.0.2.beta.11.8" provider-name="ducnn">
+    <<addon id="plugin.video.vietmediaF" name="VietmediaF" version="2.0.2.beta.11.9" provider-name="ducnn">
     <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.six"/>
-    <import addon="script.module.kodi-six"/>
     <import addon="script.module.requests"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
@@ -24,6 +24,7 @@
         </assets>
     </extension>
 </addon>
+
 
 <addon id="plugin.video.vnmedia" name="VN Media" version="2.3.4" provider-name="mkendo">
 <requires>
