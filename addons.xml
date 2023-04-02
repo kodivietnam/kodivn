@@ -560,33 +560,7 @@ Supports: OpenSubtitles, BSPlayer, Podnadpisi.NET, Subscene, Addic7ed
     </assets>	
 </addon>
 
-
-<addon id="repository.bimozie" version="1.2" name="Bimozie repository" provider-name="billy.nguyen">
-    <requires>
-        <import addon="xbmc.addon" version="12.0.0"/>
-    </requires>
-    <extension point="xbmc.addon.repository" name="Bimozie repository">
-        <dir>
-            <info compressed="false">https://raw.github.com/billythekids/kodi.repository/master/addons.xml</info>
-            <checksum>https://raw.github.com/billythekids/kodi.repository/master/addons.xml.md5</checksum>
-            <datadir zip="true">https://github.com/billythekids/kodi.repository/raw/master/zips/</datadir>
-        </dir>
-        <dir>
-            <info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/zips/</datadir>
-        </dir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en">Bimozie repository</summary>
-        <description lang="en">This is official bimozie repository
-        </description>
-        <disclaimer lang="en">The provider is not responsible for any issues caused by using this addon.
-        </disclaimer>
-        <email>billythekidsde@gmail.com</email>
-        <platform>all</platform>
-    </extension>
-</addon>		
+		
 <addon id="repository.vmfmatrix" name="Repo VMF Matrix" version="1.0.3" provider-name="mkendo">
 	<extension point="xbmc.addon.repository" name="VietMedia Matrix Add-on Repository">
 		<dir>
@@ -602,7 +576,6 @@ Supports: OpenSubtitles, BSPlayer, Podnadpisi.NET, Subscene, Addic7ed
 		<assets><icon>icon.png</icon></assets>
 	</extension>
 </addon>
-
 
 <addon id="script.module.pyqrcode" version="1.2.1.4" name="pyQRcode" provider-name="Michael Nooner">
     <requires>
@@ -622,7 +595,7 @@ Supports: OpenSubtitles, BSPlayer, Podnadpisi.NET, Subscene, Addic7ed
     </extension>
 </addon>
 	
-	
+
 <addon id="script.module.horus" name="Horus" version="1.1.7" provider-name="Caperucitaferoz">
     <requires>
         <import addon="script.module.six" />
@@ -1035,10 +1008,10 @@ You can clone the project and host it in your own server.
   </extension>
 </addon>
 	
-<addon id="script.module.beautifulsoup4" name="BeautifulSoup4" version="4.11.1" provider-name="Leonard Richardson (leonardr@segfault.org)">
+<addon id="script.module.beautifulsoup4" name="BeautifulSoup4" version="4.12.0" provider-name="Leonard Richardson (leonardr@segfault.org), mkendo">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
-    <import addon="script.module.soupsieve" version="2.1.0"/>
+    <import addon="script.module.soupsieve"/>
   </requires>
   <extension point="xbmc.python.module" library="lib" />
   <extension point="xbmc.addon.metadata">
