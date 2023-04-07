@@ -733,7 +733,7 @@ Nhằm tối ưu trải nghiệm của người dùng
     </extension>
 </addon>
 	
-<addon id="script.module.codequick" name="CodeQuick" provider-name="willforde, mkendo" version="1.1.7">
+<addon id="script.module.codequick" name="CodeQuick" provider-name="willforde, mkendo" version="1.1.8">
     <requires>
         <import addon="xbmc.python" version="3.0.1"/>
         <import addon="script.module.youtube.dl"/>
@@ -756,6 +756,7 @@ Nhằm tối ưu trải nghiệm của người dùng
         </assets>
     </extension>
 </addon>
+
 
 <addon id="plugin.video.cumination" name="Cumination" provider-name="Cumination" version="1.1.60">
     <requires>
