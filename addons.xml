@@ -24,10 +24,10 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.vnmedia" name="VN Media" version="2.4.3" provider-name="mkendo">
+<addon id="plugin.video.vnmedia" name="VN Media" version="2.4.4" provider-name="mkendo">
 <requires>
   <import addon="xbmc.python" version="3.0.1"/>
-  <import addon="script.module.codequick" version="1.1.7"/>
+  <import addon="script.module.codequick" version="1.1.8"/>
   <import addon="script.module.beautifulsoup4" version="1.12.0"/>
   <import addon="script.module.cloudscraperkd" version="1.2.68"/>
   <import addon="script.module.inputstreamhelper" version="0.2.0"/>
@@ -51,7 +51,7 @@
     <fanart>fanart.jpg</fanart>
   </assets>
   <news>
-V2.4.3_08/04.22.22 Omega
+V2.4.4_11/04.16.16 Omega
 Nội dung được chia sẻ bởi người dùng internet.
 VNM không kiểm soát cũng như không chịu trách nhiệm về nội dung được chia sẻ.
   </news>
