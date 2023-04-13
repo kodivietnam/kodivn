@@ -24,7 +24,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.vnmedia" name="VN Media" version="2.4.8" provider-name="mkendo">
+<addon id="plugin.video.vnmedia" name="VN Media" version="2.4.9" provider-name="mkendo">
 <requires>
   <import addon="xbmc.python" version="3.0.1"/>
   <import addon="script.module.codequick" version="1.1.8"/>
@@ -41,7 +41,7 @@
 <extension point="xbmc.addon.metadata">
   <reuselanguageinvoker>true</reuselanguageinvoker>
   <summary lang="vi_VN">VN Media Omega</summary>
-  <description lang="vi_VN">VN Media là addon được phát triển bởi cộng đồng KODI Việt Nam</description>
+  <description lang="vi_VN">VN Media là addon được phát triển bởi cộng đồng KODI Việt Nam. Để cài đặt tiện ích này cần bật chế độ "Cập nhật các tiện ích từ Bất kỳ kho lưu trữ nào" trong Cài đặt/Hệ thống/Tiện ích/Không rõ nguồn gốc</description>
   <disclaimer lang="vi_VN">Nội dung được chia sẻ bởi người dùng internet, VNM không kiểm soát cũng như không chịu trách nhiệm về nội dung được chia sẻ. Khán giả đồng ý và cân nhắc nội dung khi sử dụng tài nguyên.</disclaimer>
   <platform>all</platform>
   <language>vi</language>
@@ -51,7 +51,7 @@
     <fanart>fanart.png</fanart>
   </assets>
   <news>
-V2.4.8_12/04.17.17 Omega
+V2.4.9_13/04.10.10 Omega
 Nội dung được chia sẻ bởi người dùng internet.
 VNM không kiểm soát cũng như không chịu trách nhiệm về nội dung được chia sẻ.
   </news>
