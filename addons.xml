@@ -1,6 +1,5 @@
 <addons>
-<addon id="plugin.video.vietmediaF" name="VietmediaF" version="11.11" provider-name="ducnn">
-    <<addon id="plugin.video.vietmediaF" name="VietmediaF" version="11.12" provider-name="ducnn">
+<addon id="plugin.video.vietmediaF" name="VietmediaF" version="11.12" provider-name="ducnn">
     <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.six"/>
