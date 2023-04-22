@@ -1,9 +1,11 @@
 <addons>
-<addon id="plugin.video.vietmediaF" name="VietmediaF" version="2.0.2.beta.11.10" provider-name="ducnn">
+<addon id="plugin.video.vietmediaF" name="VietmediaF" version="11.11" provider-name="ducnn">
     <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.six"/>
     <import addon="script.module.requests"/>
+	
+
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
@@ -20,9 +22,11 @@
         <platform>all</platform>
         <assets>
             <icon>icon.png</icon>
+			<fanart>fanart.png</fanart>
         </assets>
     </extension>
 </addon>
+
 
 <addon id="plugin.video.vnmedia" name="VN Media" version="2.6.0" provider-name="mkendo">
 <requires>
