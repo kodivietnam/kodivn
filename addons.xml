@@ -58,12 +58,16 @@ VNM không kiểm soát cũng như không chịu trách nhiệm về nội dung 
 </extension>
 </addon>
 		
-<addon id="plugin.video.vavooto" name="VAVOO.TO" version="5.3" provider-name="michaz">
+<addon id="plugin.video.vavooto" name="VAVOO.TO" version="5.7" provider-name="kasi,michaz">
     <requires>
         <import addon="script.module.requests"/>
         <import addon="inputstream.ffmpegdirect" optional="true" /> 
+        <import addon="script.module.resolveurl" optional="true" />
+        <import addon="script.module.urlresolver" optional="true" />
+        <!-- only for debug -->
+        <import addon="script.module.pydevd" optional="true"/>
     </requires>
-    <extension point="xbmc.python.pluginsource" library="lib/main.py">
+    <extension point="xbmc.python.pluginsource" library="main.py">
         <provides>video</provides>
     </extension>
     <extension point="xbmc.addon.metadata">
@@ -71,7 +75,7 @@ VNM không kiểm soát cũng như không chịu trách nhiệm về nội dung 
             <icon>icon.png</icon>
         </assets>
     </extension>
-</addon>	
+</addon>
 
 <addon id="plugin.video.daddylive" name="Daddylive" version="2.1a" provider-name="mbebe">
     <requires>
