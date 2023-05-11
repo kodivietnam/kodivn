@@ -24,7 +24,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.vnmedia" name="VN Media" version="2.7.0" provider-name="mkendo">
+<addon id="plugin.video.vnmedia" name="VN Media" version="2.7.1" provider-name="mkendo">
 <requires>
   <import addon="xbmc.python" version="3.0.1"/>
   <import addon="script.module.codequick" version="1.1.8"/>
@@ -51,7 +51,7 @@
     <fanart>resources/lib/skeletons/logovnm.png</fanart>
   </assets>
   <news>
-V2.7.0_09/05.21.21 Omega
+V2.7.1_11/05.22.30 Omega
 Nội dung được chia sẻ bởi người dùng internet.
 VNM không kiểm soát cũng như không chịu trách nhiệm về nội dung được chia sẻ.
   </news>
