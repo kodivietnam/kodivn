@@ -1,9 +1,10 @@
 <addons>
-<addon id="plugin.video.vietmediaF" name="VietmediaF" version="11.17" provider-name="ducnn">
+<addon id="plugin.video.vietmediaF" name="VietmediaF" version="11.18" provider-name="ducnn">
     <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.six"/>
     <import addon="script.module.requests"/>
+	<import addon="script.module.beautifulsoup4"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
