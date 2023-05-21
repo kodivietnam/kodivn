@@ -775,7 +775,7 @@ Nhằm tối ưu trải nghiệm của người dùng
     </extension>
 </addon>
 	
-<addon id="script.module.codequick" name="CodeQuick" provider-name="willforde, mkendo" version="1.1.8">
+<addon id="script.module.codequick" name="CodeQuick" provider-name="willforde, mkendo" version="1.1.9">
     <requires>
         <import addon="xbmc.python" version="3.0.1"/>
         <import addon="script.module.youtube.dl"/>
@@ -1034,7 +1034,7 @@ You can clone the project and host it in your own server.
     </extension>
 </addon>
 
-<addon id="script.module.requests" name="requests" version="2.28.2" provider-name="Python Software Foundation">
+<addon id="script.module.requests" name="requests" version="2.30.0" provider-name="Python Software Foundation, mkendo">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.certifi" />
@@ -1058,7 +1058,7 @@ You can clone the project and host it in your own server.
 </addon>
 	
 	
-<addon id="script.module.urllib3" name="urllib3" version="1.27.2" provider-name="urllib3">
+<addon id="script.module.urllib3" name="urllib3" version="2.0.0" provider-name="urllib3, mkendo">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
   </requires>
@@ -1075,7 +1075,7 @@ You can clone the project and host it in your own server.
       <icon>resources/icon.png</icon>
     </assets>
 	<news>
-	kendo update ver 2.0.2 8.5.2023
+	kendo update ver 2.0.0 21.5.2023
   </news>
   </extension>
 </addon>
@@ -1271,7 +1271,7 @@ v0.5.10 (2022-04-18)
   </extension>
 </addon>
 
-<addon id="script.module.requests-toolbelt" name="Requests Toolbelt" version="0.10.1" provider-name="mkendo">
+<addon id="script.module.requests-toolbelt" name="Requests Toolbelt" version="1.0.0" provider-name="mkendo">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
 	<import addon="script.module.requests" version="2.9.2"/>
