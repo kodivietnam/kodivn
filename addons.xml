@@ -1269,7 +1269,7 @@ v0.5.9 (2022-03-22)
   </extension>
 </addon>
 	
-<addon id="script.module.cloudscraperkd" name="CloudScraper KODI" version="1.2.68" provider-name="mkendo">
+<addon id="script.module.cloudscraperkd" name="CloudScraper KODI" version="1.2.71" provider-name="mkendo">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.requests" version="2.9.2"/>
