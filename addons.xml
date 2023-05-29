@@ -1659,6 +1659,9 @@ v0.5.9 (2022-03-22)
 	</requires>
 	<extension point="xbmc.service" library="voice.py">
 	</extension>
+	<extension point="xbmc.python.script" library="voice.py">
+		<provides>executable</provides>
+	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en_GB">VNM Voice by linor.</summary>
 		<description lang="en_GB">VNM search by voice.</description>
