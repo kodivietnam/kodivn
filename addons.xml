@@ -1653,5 +1653,22 @@ v0.5.9 (2022-03-22)
     </assets>
   </extension>
 
+<addon id="service.kodiVoice" name="VNM Voice" version="1.0.0" provider-name="linor">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+	</requires>
+	<extension point="xbmc.service" library="voice.py">
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">VNM Voice by linor.</summary>
+		<description lang="en_GB">VNM search by voice.</description>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE Version 2</license>
+		<assets>
+            <icon>icons.png</icon>
+        </assets>
+	</extension>
+</addon>	
+	
 </addon>
 </addons>
