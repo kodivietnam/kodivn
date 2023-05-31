@@ -25,14 +25,13 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.vnmedia" name="VN Media" version="2.7.8" provider-name="mkendo">
+<addon id="plugin.video.vnmedia" name="VN Media" version="2.7.9" provider-name="mkendo">
 <requires>
   <import addon="xbmc.python" version="3.0.1"/>
   <import addon="script.module.codequick" version="1.1.8"/>
   <import addon="script.module.beautifulsoup4" version="1.12.0"/>
   <import addon="script.module.cloudscraperkd" version="1.2.68"/>
   <import addon="script.module.inputstreamhelper" version="0.2.0"/>
-  <import addon="resource.language.vi_vn" version="10.0.0"/>
   <import addon="inputstream.adaptive" version="20.0.0"/>
 </requires>
 <extension point="xbmc.python.pluginsource" library="mkendo.py">
@@ -52,7 +51,7 @@
     <fanart>resources/lib/skeletons/logovnm.png</fanart>
   </assets>
   <news>
-V2.7.8_28/05.16.30 Omega
+Addon VN Media chỉ hoạt động trên Kodi 20+
 Nội dung được chia sẻ bởi người dùng internet.
 VNM không kiểm soát cũng như không chịu trách nhiệm về nội dung được chia sẻ.
   </news>
