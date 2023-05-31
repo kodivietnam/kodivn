@@ -3,7 +3,7 @@
     <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.six"/>
-    <import addon="script.module.requests" version="2.30.0"/>
+    <import addon="script.module.requests"/>
 	<import addon="script.module.beautifulsoup4"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
@@ -24,6 +24,7 @@
         </assets>
     </extension>
 </addon>
+
 
 <addon id="plugin.video.vnmedia" name="VN Media" version="2.7.9" provider-name="mkendo">
 <requires>
@@ -54,6 +55,11 @@
 Addon VN Media chỉ hoạt động trên Kodi 20+
 Nội dung được chia sẻ bởi người dùng internet.
 VNM không kiểm soát cũng như không chịu trách nhiệm về nội dung được chia sẻ.
+
+v2.7.9 (15:45 31.05.2023)
+- Sửa list truyền hình PhapSonyTx5
+- Thêm list truyền hình CVMedia
+- Loại bỏ yêu cầu cài addon ngôn ngữ tiếng Việt
   </news>
 </extension>
 </addon>
