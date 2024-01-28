@@ -5,7 +5,7 @@
 		<dir>
 			<info compressed="true">https://raw.githubusercontent.com/kodivietnam/kodivn/master/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/kodivietnam/kodivn/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://github.com/kodivietnam/kodivn/raw/master/zips/</datadir>
+			<datadir zip="true">https://github.com/kodivietnam/kodivn/raw/master/repos/</datadir>
 		</dir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
