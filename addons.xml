@@ -9,9 +9,18 @@
 		</dir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary>Kho tiện ích KODI Việt Nam</summary>
-		<description></description>
-		<genre></genre>
-		<assets><icon>icon.png</icon></assets>
+		<summary lang="vi_VN">Kho tiện ích KODI Việt Nam</summary>
+		<description lang="vi_VN">Yêu cầu:
+			+ Kodi 20 trở lên.
+			+ Mở chế độ "Cập nhật các tiện ích từ Bất kỳ kho lưu trữ nào" bằng cách:
+			- Anh ngữ: Settings > System > Add-ons > Unknown sources > Any repositories
+			- Việt ngữ: Cài đặt > Hệ thống > Tiện ích > Không rõ nguồn gốc > Bất kỳ kho lưu trữ nào
+		</description>
+		<disclaimer lang="vi_VN">Nội dung được chia sẻ và lưu trữ bởi một ứng dụng bên thứ ba. VNM hoạt động giống như một công cụ thu thập tìm kiếm từ Internet. Chúng tôi không sở hữu, không lưu trữ nội dung này và sẽ không chịu trách nhiệm cho các vấn đề liên quan. Đề nghị khán giả cân nhắc nội dung khi sử dụng tài nguyên.</disclaimer>
+		<platform>all</platform>
+		<language>vi</language>
+		<assets>
+			<icon>icon.png</icon>
+		</assets>
 	</extension>
 </addon></addons>
