@@ -1,30 +1,65 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="kodivietnam" name="Kho tiện ích KODI Việt Nam" version="0.0.1" provider-name="mkendo">
-	<extension point="xbmc.addon.repository" name="Kho tien ich Kodi VietNam">
+<addons>
+<addon id="plugin.video.vietmediaF" name="VietmediaF" version="11.28" provider-name="ducnn">
+    <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.six"/>
+    <import addon="script.module.requests"/>
+	<import addon="script.module.beautifulsoup4"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+	<extension point="xbmc.service" library="autorun.py"/>
+	<extension point="xbmc.addon.metadata">
+        <reuselanguageinvoker>true</reuselanguageinvoker>
+        <summary lang="en">VietmediaF for Kodi 20</summary>
+        <description lang="en">
+            VietmediaF
+        </description>
+        <disclaimer lang="en">Nội dung lấy trên mạng và do người dùng tự upload lên. VietmediaF không chịu trách nhiệm về nội dung hiển thị bên trong addon.
+        </disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+
+	
+<addon id="kodivietnam" name="Kodi Việt Nam" version="0.0.1" provider-name="mkendo">
+	<extension point="xbmc.addon.repository" name="Kodi Việt Nam">
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/kodivietnam/kodivn/master/addons.xml</info>
 			<checksum>https://random-word-api.herokuapp.com/word</checksum>
-			<datadir zip="true">https://github.com/kodivietnam/kodivn/raw/master/repos/</datadir>
+			<datadir zip="true">https://raw.githubusercontent.com/kodivietnam/kodivn/master/repos/</datadir>
 		</dir>
 		<dir>
-		<info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
+			<info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
+		</dir>
+		<dir minversion="19.0.0">
+			<info compressed="false">https://raw.githubusercontent.com/cguZZman/repository.plugins/master/addons-info-nexus.xml</info>
+			<checksum>https://raw.githubusercontent.com/cguZZman/repository.plugins/master/addons-info-nexus.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/cguZZman/repository.plugins/master/nexus/</datadir>
+			<hashes>false</hashes>
 		</dir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="vi_VN">Kho tiện ích KODI Việt Nam</summary>
-		<description lang="vi_VN">Yêu cầu:
+		<summary>Kho tiện ích KODI Việt Nam</summary>
+		<description>Yêu cầu:
 			+ Kodi 20 trở lên.
 			+ Mở chế độ "Cập nhật các tiện ích từ Bất kỳ kho lưu trữ nào" bằng cách:
 			- Anh ngữ: Settings > System > Add-ons > Unknown sources > Any repositories
 			- Việt ngữ: Cài đặt > Hệ thống > Tiện ích > Không rõ nguồn gốc > Bất kỳ kho lưu trữ nào
 		</description>
-		<disclaimer lang="vi_VN">Nội dung được chia sẻ và lưu trữ bởi một ứng dụng bên thứ ba. Chúng tôi không sở hữu, không lưu trữ nội dung này và sẽ không chịu trách nhiệm cho các vấn đề liên quan. Đề nghị khán giả cân nhắc nội dung khi sử dụng tài nguyên.</disclaimer>
+		<disclaimer>Nội dung được chia sẻ và lưu trữ bởi một ứng dụng bên thứ ba. Chúng tôi không sở hữu, không lưu trữ nội dung này và sẽ không chịu trách nhiệm cho các vấn đề liên quan. Đề nghị khán giả cân nhắc nội dung khi sử dụng tài nguyên.</disclaimer>
 		<platform>all</platform>
-		<language>vi</language>
 		<assets>
 			<icon>icon.png</icon>
-		</assets>
+			<fanart>icon.jpg</fanart>
+		</assets> 
 	</extension>
 </addon>
+<addons>
