@@ -579,7 +579,7 @@ v0.6.0 (2023-05-03)
 </addon>
 
 	
-<addon id="script.module.certifi" name="certifi" version="2023.11.17" provider-name="Certifi, mkendo">
+<addon id="script.module.certifi" name="certifi" version="2024.02.02" provider-name="Certifi, mkendo">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
   </requires>
