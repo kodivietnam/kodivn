@@ -890,6 +890,24 @@ v0.6.0 (2023-05-03)
         </assets>
     </extension>
 </addon>
+
+<addon id="script.module.simplejson" name="simplejson" version="3.19.2" provider-name="Bob Ippolito, mkendo">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Simple, fast, extensible JSON encoder/decoder for Python</summary>
+    <description lang="en_GB">Simple, fast, extensible JSON encoder/decoder for Python</description>
+    <license>MIT</license>
+    <platform>all</platform>
+    <website>https://github.com/simplejson/simplejson</website>
+    <source>https://github.com/simplejson/simplejson</source>
+    <assets>
+      <icon>resources/icon.png</icon>
+    </assets>
+  </extension>
+</addon>
 	
 <addon id="script.module.websocket" name="websocket library" version="1.7.0" provider-name="liris, mkendo">
   <requires>
