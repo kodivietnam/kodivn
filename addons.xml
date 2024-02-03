@@ -1059,6 +1059,11 @@ v0.6.0 (2023-05-03)
 			<checksum>https://raw.github.com/jmooremcc/Repository.jmooremcc/master/addons.xml.md5</checksum>
 			<datadir zip="true">https://raw.github.com/jmooremcc/Repository.jmooremcc/master</datadir>
 		</dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/5-star/repository.5star/master/addons/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/5-star/repository.5star/master/addons/addons.xml.md5</checksum>
+			<datadir zip="true">https://github.com/5-star/repository.5star/raw/master/zips/</datadir>
+		</dir>
 		<dir minversion="19.0.0">
 			<info compressed="false">https://raw.githubusercontent.com/cguZZman/repository.plugins/master/addons-info-nexus.xml</info>
 			<checksum>https://raw.githubusercontent.com/cguZZman/repository.plugins/master/addons-info-nexus.xml.md5</checksum>
