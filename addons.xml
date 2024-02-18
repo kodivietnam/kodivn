@@ -448,7 +448,7 @@ Nhằm tối ưu trải nghiệm của người dùng
   </extension>
 </addon>
 	
-<addon id="script.module.urllib3" name="urllib3" version="2.2.0" provider-name="urllib3, mkendo">
+<addon id="script.module.urllib3" name="urllib3" version="2.2.1" provider-name="urllib3, mkendo">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
   </requires>
