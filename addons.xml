@@ -297,7 +297,7 @@ Nhằm tối ưu trải nghiệm của người dùng
     </extension>
 </addon>
 
-<addon id="plugin.video.youtube" name="YouTube" version="7.0.3.1" provider-name="anxdpanic, bromix">
+<addon id="plugin.video.youtube" name="YouTube" version="7.0.3.2.1" provider-name="anxdpanic, bromix">
     <requires>
         <import addon="xbmc.python" version="3.0.1"/>
         <import addon="script.module.requests" version="2.12.4"/>
@@ -398,11 +398,10 @@ Nhằm tối ưu trải nghiệm của người dùng
         <disclaimer lang="vi_VN">Plugin này không được xác nhận bởi Google</disclaimer>
         <disclaimer lang="zh_CN">此插件未被谷歌认可</disclaimer>
         <disclaimer lang="zh_TW">此附加元件未由Google支持</disclaimer>
-    <news>## v7.0.3
+    <news>## v7.0.3.2
 ### Fixed
-- Fix incorrect labelling of subtitle language in Kodi subtitle selection dialog
-- Fix failure to play videos when MPEG-DASH and subtitles were enabled in Kodi 20 and lower
-- Fix Python 2 compatibility</news></extension>
+- Fix settings not being saved and setup wizard repeatedly activating in Kodi 20 and lower
+- Fix plugin refresh on settings change</news></extension>
 </addon>
 
 
