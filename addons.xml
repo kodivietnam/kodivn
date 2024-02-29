@@ -1080,6 +1080,12 @@ Nhằm tối ưu trải nghiệm của người dùng
 			<datadir>https://github.com/newt-sc/a4kSubtitles/archive</datadir>
 			<artdir>https://github.com/a4k-openproject/a4kSubtitles/releases/download/v0.0.13</artdir>
 		</dir>
+		<dir minversion="19.0.0">
+			<info compressed="false">https://github.com/CastagnaIT/repository.castagnait/raw/kodi/kodi19/addons.xml</info>
+			<checksum>https://github.com/CastagnaIT/repository.castagnait/raw/kodi/kodi19/addons.xml.md5</checksum>
+			<datadir zip="true">https://github.com/CastagnaIT/repository.castagnait/raw/kodi/kodi19</datadir>
+			<hashes>false</hashes>
+		</dir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>Kho tiện ích KODI Việt Nam</summary>
