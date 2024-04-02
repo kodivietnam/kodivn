@@ -297,27 +297,6 @@ Nhằm tối ưu trải nghiệm của người dùng
 		</assets>
 	</extension>
 </addon>
-
-<addon id="script.common.plugin.cache" name="Common plugin cache" provider-name="anxdpanic, TheCollective" version="3.0.0">
-    <requires>
-        <import addon="xbmc.python" version="3.0.1"/>
-    </requires>
-    <extension point="xbmc.service" library="resources/lib/entry_point.py"/>
-    <extension point="xbmc.python.module" library="resources/lib/storage_server/"/>
-    <extension point="xbmc.addon.metadata">
-        <news>
-[fix] use xbmcvfs.translatePath when available, xbmc.translatePath deprecated(Matrix) and removed(Nexus) |contrib: Gujal00|
-        </news>
-        <assets>
-            <icon>icon.png</icon>
-        </assets>
-        <platform>all</platform>
-        <license>GPL-3.0-only</license>
-        <source>https://github.com/anxdpanic/script.common.plugin.cache</source>
-        <summary lang="en_GB">A common caching API for Kodi add-ons.</summary>
-        <description lang="en_GB">A common caching API for Kodi add-ons.</description>
-    </extension>
-</addon>
 	
 
 <addon id="script.module.certifi" name="certifi" version="2024.02.02" provider-name="Certifi, mkendo">
@@ -422,24 +401,6 @@ Nhằm tối ưu trải nghiệm của người dùng
   </extension>
 </addon>
 	
-<addon id="script.module.websocket" name="websocket library" version="1.7.0" provider-name="liris, mkendo">
-  <requires>
-    <import addon="xbmc.python" version="3.0.0" />
-    <import addon="script.module.six" version="1.14.1" />
-  </requires>
-  <extension point="xbmc.python.module" library="lib" />
-  <extension point="xbmc.addon.metadata">
-    <assets>
-      <icon>icon.png</icon>
-    </assets>
-    <summary lang="en_GB">websocket library repacked for Kodi</summary>
-    <source>https://github.com/pkscout/script.module.websocket</source>
-    <website>https://github.com/websocket-client/websocket-client</website>
-    <platform>all</platform>
-    <license>LGPL-2.1-only</license>
-  </extension>
-</addon>
-
 
 <addon id="script.fentastic.helper" name="FENtastic Helper" version="0.6.20" provider-name="Tikipeter, Ivar Brandt">
     <requires>
