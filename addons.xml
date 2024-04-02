@@ -1024,6 +1024,7 @@ Nhằm tối ưu trải nghiệm của người dùng
 	</extension>
 </addon>
 
+
 <addon id="plugin.video.vnmedia" name="VN Media" version="4.7.5" provider-name="mkendo">
 <requires>
   <import addon="xbmc.python" version="3.0.0"/>
@@ -1047,6 +1048,33 @@ Nhằm tối ưu trải nghiệm của người dùng
   </assets>
   <news>CLOSED</news>
 </extension>
+</addon>
+
+<addon id="plugin.video.mplayvn" name="MPlay" provider-name="mkendo" version="0.0.1">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.codequick" version="0.9.10"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>audio video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="vi_VN">Mobile Play</summary>
+        <description lang="vi_VN">MPlay là tiện ích được phát triển bởi cộng đồng KODI Việt Nam</description>
+		<disclaimer lang="vi_VN">Nội dung được chia sẻ và lưu trữ bởi một ứng dụng bên thứ ba. Mplay hoạt động giống như một công cụ thu thập tìm kiếm từ Internet. Chúng tôi không sở hữu, không lưu trữ nội dung này và sẽ không chịu trách nhiệm cho các vấn đề liên quan. Đề nghị khán giả cân nhắc nội dung khi sử dụng tài nguyên.</disclaimer>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <platform>all</platform>
+        <language>vi</language>
+        <assets>
+            <icon>mkendo.jpg</icon>
+            <fanart>mkendo.jpg</fanart>
+        </assets>
+        <news>Mkendo.</news>
+        <reuselanguageinvoker>true</reuselanguageinvoker>
+		<news>Nội dung được chia sẻ bởi người dùng internet.
+		MPlay không kiểm soát cũng như không chịu trách nhiệm về nội dung được chia sẻ.
+  </news>
+    </extension>
 </addon>
 	
 </addons>
