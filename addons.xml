@@ -1025,30 +1025,7 @@ Nhằm tối ưu trải nghiệm của người dùng
 </addon>
 
 
-<addon id="plugin.video.vnmedia" name="VN Media" version="4.7.5" provider-name="mkendo">
-<requires>
-  <import addon="xbmc.python" version="3.0.0"/>
-  <import addon="script.module.codequick" version="0.0.1"/>
-</requires>
-<extension point="xbmc.python.pluginsource" library="mkendo.py">
-  <provides>video</provides>
-</extension>
-<extension point="xbmc.service" library="service.py"/>
-<extension point="xbmc.addon.metadata">
-  <reuselanguageinvoker>true</reuselanguageinvoker>
-  <summary lang="vi_VN">VN Media Omega</summary>
-  <description lang="vi_VN">CLOSED</description>
-  <disclaimer lang="vi_VN">CLOSED</disclaimer>
-  <platform>all</platform>
-  <language>vi</language>
-  <license>GPL-2.0-or-later</license>
-  <assets>
-    <icon>icon.png</icon>
-    <fanart>icon.png</fanart>
-  </assets>
-  <news>CLOSED</news>
-</extension>
-</addon>
+
 
 <addon id="plugin.video.mplayvn" name="MPlay" provider-name="mkendo" version="0.0.1">
     <requires>
