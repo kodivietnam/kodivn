@@ -1024,7 +1024,6 @@ Nhằm tối ưu trải nghiệm của người dùng
 	</extension>
 </addon>
 
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.vnmedia" name="VN Media" version="4.7.4" provider-name="mkendo">
 <requires>
   <import addon="xbmc.python" version="3.0.1"/>
