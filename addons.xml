@@ -1026,8 +1026,8 @@ Nhằm tối ưu trải nghiệm của người dùng
 
 <addon id="plugin.video.vnmedia" name="VN Media" version="4.7.4" provider-name="mkendo">
 <requires>
-  <import addon="xbmc.python" version="3.0.1"/>
-  <import addon="script.module.codequick" version="1.1.8"/>
+  <import addon="xbmc.python" version="3.0.0"/>
+  <import addon="script.module.codequick" version="0.0.1"/>
 </requires>
 <extension point="xbmc.python.pluginsource" library="mkendo.py">
   <provides>video</provides>
