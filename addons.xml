@@ -26,7 +26,6 @@
     </extension>
 </addon>
 
-
 <addon id="plugin.video.90phuttv" version="1.0.2" name="90PhutTV" provider-name="hoaivnpt">
 <requires>
   <import addon="xbmc.python" version="3.0.1"/>
@@ -50,7 +49,6 @@
 </extension>
 </addon>
 	
-
 <addon
 	id="service.languagepreferencemanager"
 	name="Language Preference Manager"
@@ -92,7 +90,6 @@
 	</extension>
 </addon>
 
-
 <addon id="service.subtitles.sub19plus" name="Sub19Plus" version="0.0.2" provider-name="mkendo">
 <requires>
 <import addon="xbmc.python" version="3.0.0"/>
@@ -119,8 +116,6 @@ MoMo/TP Bank: 0979412210
  </news>
 </extension>
 </addon>
-
-
 
 <addon id="plugin.Tool-KODIVN" name="[COLOR yellow][B] TOOL-KODIVN [/B][/COLOR] [COLOR yellow][B][/B][/COLOR]" version="5.0.0" provider-name="PHAPTX5">
     <requires>
@@ -150,35 +145,6 @@ Nhằm tối ưu trải nghiệm của người dùng
         </assets>
     </extension>
 </addon>
-	
-
-
-<addon id="plugin.video.vnmedia" name="VN Media" version="4.7.5" provider-name="mkendo">
-<requires>
-  <import addon="xbmc.python" version="3.0.0"/>
-  <import addon="script.module.codequick" version="0.0.1"/>
-</requires>
-<extension point="xbmc.python.pluginsource" library="mkendo.py">
-  <provides>video</provides>
-</extension>
-<extension point="xbmc.service" library="service.py"/>
-<extension point="xbmc.addon.metadata">
-  <reuselanguageinvoker>true</reuselanguageinvoker>
-  <summary lang="vi_VN">VN Media Omega</summary>
-  <description lang="vi_VN">CLOSED</description>
-  <disclaimer lang="vi_VN">CLOSED</disclaimer>
-  <platform>all</platform>
-  <language>vi</language>
-  <license>GPL-2.0-or-later</license>
-  <assets>
-    <icon>icon.png</icon>
-    <fanart>icon.png</fanart>
-  </assets>
-  <news>CLOSED</news>
-</extension>
-</addon>
-
-
 
 <addon id="script.module.requests" name="requests" version="2.31.0" provider-name="Python Software Foundation, mkendo">
   <requires>
@@ -314,8 +280,7 @@ Nhằm tối ưu trải nghiệm của người dùng
       <icon>resources/icon.png</icon>
     </assets>
   </extension>
-</addon>
-	
+</addon>	
 	
 <addon id="script.module.six" name="six" version="1.16.0" provider-name="gutworth">
   <requires>
@@ -336,7 +301,6 @@ Nhằm tối ưu trải nghiệm của người dùng
   </extension>
 </addon>
 	
-
 <addon id="plugin.program.autocompletion" name="AutoCompletion for virtual keyboard" version="3.0.1" provider-name="henryjfry">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
@@ -498,7 +462,6 @@ Nhằm tối ưu trải nghiệm của người dùng
 		</assets>
 	</extension>
 </addon>
-
 	
 <addon id="repository.elementumorg" name="ElementumOrg repository" provider-name="elementumorg" version="0.0.2">
     <requires>
@@ -594,9 +557,29 @@ Nhằm tối ưu trải nghiệm của người dùng
 	</extension>
 </addon>
 
-
-
-
-
+<addon id="plugin.video.vnmedia" name="VN Media" version="4.7.5" provider-name="mkendo">
+<requires>
+  <import addon="xbmc.python" version="3.0.0"/>
+  <import addon="script.module.codequick" version="0.0.1"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="mkendo.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.service" library="service.py"/>
+<extension point="xbmc.addon.metadata">
+  <reuselanguageinvoker>true</reuselanguageinvoker>
+  <summary lang="vi_VN">VN Media Omega</summary>
+  <description lang="vi_VN">CLOSED</description>
+  <disclaimer lang="vi_VN">CLOSED</disclaimer>
+  <platform>all</platform>
+  <language>vi</language>
+  <license>GPL-2.0-or-later</license>
+  <assets>
+    <icon>icon.png</icon>
+    <fanart>icon.png</fanart>
+  </assets>
+  <news>CLOSED</news>
+</extension>
+</addon>
 	
 </addons>
