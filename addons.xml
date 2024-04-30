@@ -31,8 +31,8 @@
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.requests"/>
-		<import addon="script.module.beautifulsoup4" version="1.12.0"/>
-		<import addon="script.module.htmlement"/>
+        <import addon="script.module.beautifulsoup4" version="1.12.0"/>
+        <import addon="script.module.htmlement"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="addon.py">
         <provides>video</provides>
