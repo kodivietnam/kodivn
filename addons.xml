@@ -111,32 +111,7 @@
 	</extension>
 </addon>
 
-<addon id="service.subtitles.sub19plus" name="Sub19Plus" version="0.0.2" provider-name="mkendo">
-<requires>
-<import addon="xbmc.python" version="3.0.0"/>
-<import addon="script.module.six"/>
-<import addon="script.module.kodi-six"/>
-<import addon="script.module.requests" version="2.4.3"/>
-</requires>
-<extension point="xbmc.subtitle.module" library="service.py"/>
-<extension point="xbmc.addon.metadata">
- <reuselanguageinvoker>true</reuselanguageinvoker>
- <summary lang="vi">Subscene dành cho KODI 19+</summary>
- <description lang="vi">Addon tải phụ đề từ trang Subscene.com, dành cho KODI 19+</description>
- <disclaimer lang="vi">Addon tải phụ đề từ trang Subscene.com, dành cho KODI 19+</disclaimer>
- <platform>all</platform>
- <language></language>
- <license>GPL-2.0</license>
- <assets>
-  <icon>icon.png</icon>
- </assets>
- <news>
-   v0.0.2
-*Tài khoản nhận Donate:
-MoMo/TP Bank: 0979412210
- </news>
-</extension>
-</addon>
+
 
 <addon id="plugin.Tool-KODIVN" name="[COLOR yellow][B] TOOL-KODIVN [/B][/COLOR] [COLOR yellow][B][/B][/COLOR]" version="5.0.0" provider-name="PHAPTX5">
     <requires>
