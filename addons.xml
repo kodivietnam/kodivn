@@ -526,7 +526,7 @@ Nhằm tối ưu trải nghiệm của người dùng
 	<extension point="xbmc.addon.repository" name="Kodi Việt Nam">
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/kodivietnam/kodivn/master/addons.xml</info>
-			<checksum>https://random-word-api.herokuapp.com/word</checksum>
+			<checksum>https://raw.githubusercontent.com/kodivietnam/kodivn/master/addons.xml.md5</checksum>
 			<datadir zip="true">https://raw.githubusercontent.com/kodivietnam/kodivn/master/repos/</datadir>
 		</dir>
 		<dir>
